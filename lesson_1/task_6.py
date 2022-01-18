@@ -27,8 +27,8 @@ from chardet import detect
 
 str_lst = ['сетевое программирование', 'сокет', 'декоратор']
 with open('test_file.txt', 'w') as file:
-    for str in str_lst:
-        file.write(f'{str}\n')
+    for line in str_lst:
+        file.write(f'{line}\n')
 file.close()
 
 with open('test_file.txt', 'rb') as file:
