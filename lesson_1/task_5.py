@@ -7,12 +7,12 @@
 Подсказки:
 --- используйте модуль chardet, иначе задание не засчитается!!!
 """
-import subprocess, chardet
+import chardet
+import subprocess
 
 arg1 = ['ping', 'yandex.ru']
 arg2 = ['ping', 'youtube.com']
 arg_lst = [arg1, arg2]
-ping1 = subprocess.Popen(arg1, stdout=subprocess.PIPE)
 for el in arg_lst:
     ping = subprocess.Popen(el, stdout=subprocess.PIPE)
     for line in ping.stdout:
