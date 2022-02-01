@@ -3,10 +3,14 @@
 import sys
 import json
 import time
+from logging import getLogger
 from socket import socket, AF_INET, SOCK_STREAM
 from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
 from common.utils import get_message, send_message
+from logs import client_log_config
+
+logs = getLogger('client')
 
 
 def create_presence(account_name='Guest'):
@@ -22,6 +26,7 @@ def create_presence(account_name='Guest'):
             ACCOUNT_NAME: account_name
         }
     }
+    logs.debug(f'Сформировано {PRESENCE} сообщение для пользователя {account_name}')
     return out
 
 
@@ -33,8 +38,11 @@ def process_ans(message):
     """
     if RESPONSE in message:
         if message[RESPONSE] == 200:
+            logs.info('Подключение успешно')
             return '200 : OK'
+        logs.error('Клиент не подключился к серверу')
         return f'400 : {message[ERROR]}'
+    logs.error('Некоректный ответ от сервера при попытке подключения')
     raise ValueError
 
 
@@ -49,20 +57,26 @@ def main():
     except IndexError:
         server_address = DEFAULT_IP_ADDRESS
         server_port = DEFAULT_PORT
+        logs.warning(f"Параметры IP-адреса и порта не переданы и установлены по умолчанию: IP - {server_address}, "
+                     f"PORT - {server_port}")
     except ValueError:
-        print('В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
+        logs.error('В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
         sys.exit(1)
 
     # Инициализация сокета и обмен
     exchanger = socket(AF_INET, SOCK_STREAM)
-    exchanger.connect((server_address, server_port))
+    try:
+        exchanger.connect((server_address, server_port))
+    except ConnectionRefusedError:
+        logs.critical('Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')
+        sys.exit(1)
     message_to_server = create_presence()
     send_message(exchanger, message_to_server)
     try:
         answer = process_ans(get_message(exchanger))
-        print(answer)
+        logs.debug(answer)
     except (ValueError, json.JSONDecodeError):
-        print('Не удалось декодировать сообщение сервера.')
+        logs.error('Не удалось декодировать сообщение сервера.')
 
 
 if __name__ == '__main__':
