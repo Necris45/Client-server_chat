@@ -9,7 +9,7 @@ from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
 from common.utils import get_message, send_message
 from logs import client_log_config
-from Decorator import log
+from decorator import log
 
 logs = getLogger('client')
 
