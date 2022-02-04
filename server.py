@@ -8,10 +8,11 @@ from common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
     PRESENCE, TIME, USER, ERROR, DEFAULT_PORT
 from common.utils import get_message, send_message
 from logs import server_log_config
+from Decorator import log
 
 logs = getLogger('server')
 
-
+@log
 def process_client_message(message):
     """
     Обработчик сообщений от клиентов, принимает словарь-сообщение от клинта, проверяет корректность,

@@ -22,3 +22,115 @@
 2022-02-01 20:38:26,580 DEBUG client.py Сформировано presence сообщение для пользователя Guest
 2022-02-01 20:38:26,581 INFO client.py Подключение успешно
 2022-02-01 20:38:26,581 DEBUG client.py 200 : OK
+2022-02-04 13:58:43,152 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 13:58:43,172 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.Вызов из функции main
+2022-02-04 13:58:43,174 INFO client.py Подключение успешно
+2022-02-04 13:58:43,175 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.Вызов из функции main
+2022-02-04 13:58:43,175 DEBUG client.py 200 : OK
+2022-02-04 14:00:33,022 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:00:33,042 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.Вызов из функции main
+2022-02-04 14:00:33,063 INFO client.py Подключение успешно
+2022-02-04 14:00:33,064 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.Вызов из функции main
+2022-02-04 14:00:33,064 DEBUG client.py 200 : OK
+2022-02-04 14:08:53,716 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:09:11,319 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:09:11,339 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля File "E:\GB_Code\Client-server_app\python_chat\client.py", line 86, in <module>
+    main().Вызов из функции main
+2022-02-04 14:09:11,345 ERROR client.py Не удалось декодировать сообщение сервера.
+2022-02-04 14:09:28,608 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:09:28,629 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля File "E:\GB_Code\Client-server_app\python_chat\client.py", line 86, in <module>
+    main().Вызов из функции main
+2022-02-04 14:09:28,650 INFO client.py Подключение успешно
+2022-02-04 14:09:28,651 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля File "E:\GB_Code\Client-server_app\python_chat\client.py", line 86, in <module>
+    main().Вызов из функции main
+2022-02-04 14:09:28,651 DEBUG client.py 200 : OK
+2022-02-04 14:11:39,123 CRITICAL client.py Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2022-02-04 14:11:51,607 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:11:51,627 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля e.Вызов из функции main
+2022-02-04 14:11:51,647 INFO client.py Подключение успешно
+2022-02-04 14:11:51,648 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля e.Вызов из функции main
+2022-02-04 14:11:51,648 DEBUG client.py 200 : OK
+2022-02-04 14:13:13,768 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:13:13,788 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля i.Вызов из функции main
+2022-02-04 14:13:13,809 INFO client.py Подключение успешно
+2022-02-04 14:13:13,810 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля i.Вызов из функции main
+2022-02-04 14:13:13,810 DEBUG client.py 200 : OK
+2022-02-04 14:14:28,983 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:14:29,003 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.Вызов из функции main
+2022-02-04 14:14:29,025 INFO client.py Подключение успешно
+2022-02-04 14:14:29,026 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.Вызов из функции main
+2022-02-04 14:14:29,026 DEBUG client.py 200 : OK
+2022-02-04 14:17:14,247 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:17:45,705 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:17:54,527 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:18:30,473 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:18:30,493 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py".Вызов из функции main
+2022-02-04 14:18:30,499 ERROR client.py Не удалось декодировать сообщение сервера.
+2022-02-04 14:18:39,786 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:18:39,806 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py".Вызов из функции main
+2022-02-04 14:18:39,827 INFO client.py Подключение успешно
+2022-02-04 14:18:39,828 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py".Вызов из функции main
+2022-02-04 14:18:39,828 DEBUG client.py 200 : OK
+2022-02-04 14:19:50,984 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:19:51,004 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py".
+Вызов из функции main
+2022-02-04 14:19:51,024 INFO client.py Подключение успешно
+2022-02-04 14:19:51,025 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py".
+Вызов из функции main
+2022-02-04 14:19:51,025 DEBUG client.py 200 : OK
+2022-02-04 14:21:00,180 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:21:00,200 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля lient.py".
+Вызов из функции main.
+2022-02-04 14:21:00,202 INFO client.py Подключение успешно
+2022-02-04 14:21:00,203 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля lient.py".
+Вызов из функции main.
+2022-02-04 14:21:00,203 DEBUG client.py 200 : OK
+2022-02-04 14:21:23,066 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:21:23,086 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py".
+Вызов из функции main.
+2022-02-04 14:21:23,087 INFO client.py Подключение успешно
+2022-02-04 14:21:23,088 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py".
+Вызов из функции main.
+2022-02-04 14:21:23,088 DEBUG client.py 200 : OK
+2022-02-04 14:21:41,989 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:21:42,008 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-04 14:21:42,010 INFO client.py Подключение успешно
+2022-02-04 14:21:42,011 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-04 14:21:42,011 DEBUG client.py 200 : OK
+2022-02-04 14:22:22,207 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:22:22,229 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-04 14:22:22,250 INFO client.py Подключение успешно
+2022-02-04 14:22:22,251 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-04 14:22:22,251 DEBUG client.py 200 : OK
+2022-02-04 14:22:23,167 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:22:23,187 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-04 14:22:23,189 INFO client.py Подключение успешно
+2022-02-04 14:22:23,190 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-04 14:22:23,190 DEBUG client.py 200 : OK
+2022-02-04 14:22:23,823 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-04 14:22:23,843 DEBUG Decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-04 14:22:23,845 INFO client.py Подключение успешно
+2022-02-04 14:22:23,845 DEBUG Decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-04 14:22:23,845 DEBUG client.py 200 : OK

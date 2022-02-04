@@ -9,10 +9,12 @@ from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
 from common.utils import get_message, send_message
 from logs import client_log_config
+from Decorator import log
 
 logs = getLogger('client')
 
 
+@log
 def create_presence(account_name='Guest'):
     """
     Функция генерирует запрос о присутствии клиента
@@ -30,6 +32,7 @@ def create_presence(account_name='Guest'):
     return out
 
 
+@log
 def process_ans(message):
     """
     Функция разбирает ответ сервера
