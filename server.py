@@ -8,10 +8,12 @@ from common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
     PRESENCE, TIME, USER, ERROR, DEFAULT_PORT
 from common.utils import get_message, send_message
 from logs import server_log_config
+from decorator import log
 
 logs = getLogger('server')
 
 
+@log
 def process_client_message(message):
     """
     Обработчик сообщений от клиентов, принимает словарь-сообщение от клинта, проверяет корректность,
@@ -60,8 +62,8 @@ def main():
         logs.critical('После параметра \'a\'- необходимо указать адрес, который будет слушать сервер.')
         sys.exit(1)
     logs.info(f'Запущен сервер, порт для подключений: {listen_port}, '
-         f'адрес с которого принимаются подключения: {listen_address}. '
-         f'Если адрес не указан, принимаются соединения с любых адресов.')
+              f'адрес с которого принимаются подключения: {listen_address}. '
+              f'Если адрес не указан, принимаются соединения с любых адресов.')
     # Готовим сокет
     transport = socket(AF_INET, SOCK_STREAM)
     transport.bind((listen_address, listen_port))
