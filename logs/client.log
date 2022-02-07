@@ -134,3 +134,1158 @@
 Вызов из модуля client.py.
 Вызов из функции main.
 2022-02-04 14:22:23,845 DEBUG client.py 200 : OK
+2022-02-05 17:41:23,108 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:23,127 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+
+2022-02-05 17:41:23,127 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-05 17:41:23,128 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:41:23,128 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:41:23,128 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:41:23,129 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:23,130 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:23,130 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:23,130 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:23,636 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:41:23,636 INFO client.py Подключение успешно
+2022-02-05 17:41:23,637 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:23,637 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:41:23,637 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:41:23,637 INFO client.py Подключение успешно
+2022-02-05 17:41:23,638 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:23,638 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:41:23,638 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:41:23,638 INFO client.py Подключение успешно
+2022-02-05 17:41:23,639 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:41:23,639 INFO client.py Подключение успешно
+2022-02-05 17:41:23,639 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:23,639 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:41:23,640 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:23,640 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:41:52,408 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644064912.4088151, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-05 17:41:52,409 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58945), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:41:52,494 DEBUG client.py Разбор приветственного сообщения от сервера: {'action': 'message', 'sender': 'Guest', 'time': 1644064912.4947383, 'mess_text': 'privet'}
+2022-02-05 17:42:26,067 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,067 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-05 17:42:26,084 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,085 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-05 17:42:26,085 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,085 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-05 17:42:26,091 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,091 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-05 17:42:26,092 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:42:26,093 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,579 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:42:26,579 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:42:26,579 INFO client.py Подключение успешно
+2022-02-05 17:42:26,580 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,580 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,580 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:42:26,595 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:42:26,595 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:42:26,596 INFO client.py Подключение успешно
+2022-02-05 17:42:26,596 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,596 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,596 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,596 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:42:26,597 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:42:26,597 INFO client.py Подключение успешно
+2022-02-05 17:42:26,598 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,598 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+
+2022-02-05 17:42:26,598 INFO client.py Подключение успешно
+2022-02-05 17:42:26,598 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:26,599 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:42:41,565 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644064961.5651662, 'account_name': 'Guest', 'mess_text': 'priv'}
+2022-02-05 17:42:41,566 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58955), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:42:41,761 DEBUG client.py Разбор приветственного сообщения от сервера: {'action': 'message', 'sender': 'Guest', 'time': 1644064961.7611904, 'mess_text': 'priv'}
+2022-02-05 17:42:41,761 DEBUG client.py Разбор приветственного сообщения от сервера: {'action': 'message', 'sender': 'Guest', 'time': 1644064961.7611904, 'mess_text': 'priv'}
+2022-02-05 17:44:56,071 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,071 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-05 17:44:56,072 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:44:56,073 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,081 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,081 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-05 17:44:56,081 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,081 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-05 17:44:56,082 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:44:56,082 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:44:56,082 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:44:56,082 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,083 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,083 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,083 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:44:56,084 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:44:56,084 INFO client.py Подключение успешно
+2022-02-05 17:44:56,084 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,084 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:44:56,087 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,087 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-05 17:44:56,088 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:44:56,089 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:44:56,089 INFO client.py Подключение успешно
+2022-02-05 17:44:56,089 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,089 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,090 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:44:56,599 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-02-05 17:44:56,599 INFO client.py Подключение успешно
+2022-02-05 17:44:56,600 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:44:56,600 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:45:01,304 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065101.3047657, 'account_name': 'Guest', 'mess_text': 'sfsdf'}
+2022-02-05 17:45:01,305 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58981), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:45:01,657 DEBUG client.py Разбор приветственного сообщения от сервера: {'action': 'message', 'sender': 'Guest', 'time': 1644065101.6570375, 'mess_text': 'sfsdf'}
+2022-02-05 17:52:24,949 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:24,949 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-05 17:52:24,960 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:24,960 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-05 17:52:24,967 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:24,967 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-05 17:52:24,968 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:52:24,969 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:24,978 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:24,979 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-05 17:52:24,979 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:52:24,980 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-05 17:52:24,980 INFO client.py Подключение успешно
+2022-02-05 17:52:24,980 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:24,981 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:24,981 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:52:25,462 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 17:52:25,462 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-05 17:52:25,462 INFO client.py Подключение успешно
+2022-02-05 17:52:25,463 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:25,463 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:25,463 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:25,463 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:52:25,463 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-05 17:52:25,464 INFO client.py Подключение успешно
+2022-02-05 17:52:25,464 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:25,464 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:52:25,465 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-05 17:52:25,465 INFO client.py Подключение успешно
+2022-02-05 17:52:25,466 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:25,466 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 17:52:35,474 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065555.4741788, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-05 17:52:35,475 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59147), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:35,574 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-05 17:52:35,574 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-05 17:52:35,575 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065555.5738292, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:35,575 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065555.5738292, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:42,122 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065562.122123, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-05 17:52:42,123 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:59,078 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065579.078075, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-05 17:52:59,079 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:59,454 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-05 17:52:59,455 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-05 17:52:59,456 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065579.4548516, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:52:59,456 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065579.4548516, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:03,364 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065583.3647707, 'account_name': 'Guest', 'mess_text': 'hf'}
+2022-02-05 17:53:03,365 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:08,699 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065588.6990156, 'account_name': 'Guest', 'mess_text': 'juhisadfhjb'}
+2022-02-05 17:53:08,700 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:09,039 INFO client.py Получено сообщение от пользователя Guest:
+juhisadfhjb
+2022-02-05 17:53:09,039 INFO client.py Получено сообщение от пользователя Guest:
+juhisadfhjb
+2022-02-05 17:53:09,040 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065589.038017, 'mess_text': 'juhisadfhjb'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:09,040 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065589.038017, 'mess_text': 'juhisadfhjb'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:19,898 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065599.8988132, 'account_name': 'Guest', 'mess_text': 'mn fvd'}
+2022-02-05 17:53:19,899 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:22,826 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065602.8260596, 'account_name': 'Guest', 'mess_text': 'gert'}
+2022-02-05 17:53:22,827 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:23,207 INFO client.py Получено сообщение от пользователя Guest:
+gert
+2022-02-05 17:53:23,207 INFO client.py Получено сообщение от пользователя Guest:
+gert
+2022-02-05 17:53:23,208 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065603.206223, 'mess_text': 'gert'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:23,208 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065603.206223, 'mess_text': 'gert'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:34,017 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065614.0170183, 'account_name': 'Guest', 'mess_text': 'klmijk'}
+2022-02-05 17:53:34,018 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:38,926 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065618.9265692, 'account_name': 'Guest', 'mess_text': 'lkjiok'}
+2022-02-05 17:53:38,927 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:38,947 INFO client.py Получено сообщение от пользователя Guest:
+lkjiok
+2022-02-05 17:53:38,948 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065618.9470558, 'mess_text': 'lkjiok'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:51,121 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065631.1213052, 'account_name': 'Guest', 'mess_text': 'nm,n'}
+2022-02-05 17:53:51,122 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:55,729 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644065635.7297893, 'account_name': 'Guest', 'mess_text': 'jnknjkl'}
+2022-02-05 17:53:55,730 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59146), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 17:53:56,165 INFO client.py Получено сообщение от пользователя Guest:
+jnknjkl
+2022-02-05 17:53:56,165 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644065636.1647592, 'mess_text': 'jnknjkl'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,170 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,171 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-05 18:03:21,171 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-05 18:03:21,171 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 18:03:21,172 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 18:03:21,172 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,173 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,174 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,174 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-05 18:03:21,174 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,174 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-05 18:03:21,175 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 18:03:21,175 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-05 18:03:21,176 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-05 18:03:21,176 INFO client.py Подключение успешно
+2022-02-05 18:03:21,176 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,176 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,177 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,177 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 18:03:21,177 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-05 18:03:21,177 INFO client.py Подключение успешно
+2022-02-05 18:03:21,178 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,178 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 18:03:21,178 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-05 18:03:21,178 INFO client.py Подключение успешно
+2022-02-05 18:03:21,179 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,179 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 18:03:21,179 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-05 18:03:21,179 INFO client.py Подключение успешно
+2022-02-05 18:03:21,181 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:21,181 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-05 18:03:33,710 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644066213.710551, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-05 18:03:33,711 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59218), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:33,836 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-05 18:03:33,836 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644066213.835649, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:33,837 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644066213.835649, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:39,931 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644066219.9311862, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-05 18:03:39,932 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59217), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:39,945 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644066219.945235, 'mess_text': 'poka'}
+2022-02-05 18:03:47,041 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644066227.0417838, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-05 18:03:47,042 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59217), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:47,540 INFO client.py Получено сообщение от пользователя Guest:
+poka
+2022-02-05 18:03:47,540 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644066227.539986, 'mess_text': 'poka'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:47,540 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644066227.539986, 'mess_text': 'poka'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-05 18:03:54,352 ERROR client.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-02-07 12:24:04,684 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:04,690 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:24:04,690 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:24:04,690 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:24:04,690 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:24:04,692 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:24:04,692 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:24:04,692 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:24:04,692 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:24:04,693 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:04,693 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:04,694 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:04,694 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:04,710 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:24:04,710 INFO client.py Подключение успешно
+2022-02-07 12:24:04,711 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:04,711 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:24:04,730 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:24:04,730 INFO client.py Подключение успешно
+2022-02-07 12:24:04,731 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:04,731 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:24:04,751 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:24:04,751 INFO client.py Подключение успешно
+2022-02-07 12:24:04,752 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:04,752 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:24:04,769 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:24:04,769 INFO client.py Подключение успешно
+2022-02-07 12:24:04,770 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:04,770 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:24:35,519 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218675.5192525, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-07 12:24:35,520 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56666), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:35,885 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-07 12:24:35,885 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-07 12:24:35,886 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644218675.8842278, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:35,886 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644218675.8842278, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:41,586 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218681.5862267, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-07 12:24:41,587 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56667), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:42,011 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644218682.0115352, 'mess_text': 'poka'}
+2022-02-07 12:24:42,011 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644218682.0115352, 'mess_text': 'poka'}
+2022-02-07 12:24:47,391 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218687.391576, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-07 12:24:47,392 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56667), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:47,591 INFO client.py Получено сообщение от пользователя Guest:
+poka
+2022-02-07 12:24:47,591 INFO client.py Получено сообщение от пользователя Guest:
+poka
+2022-02-07 12:24:47,592 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644218687.5910344, 'mess_text': 'poka'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:47,592 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644218687.5910344, 'mess_text': 'poka'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:52,991 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218692.9911866, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-07 12:24:52,992 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56667), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:53,219 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644218693.2198787, 'mess_text': 'privet'}
+2022-02-07 12:24:53,219 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644218693.2198787, 'mess_text': 'privet'}
+2022-02-07 12:24:55,198 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218695.1984873, 'account_name': 'Guest', 'mess_text': 'dgdg'}
+2022-02-07 12:24:55,199 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56667), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:55,246 INFO client.py Получено сообщение от пользователя Guest:
+dgdg
+2022-02-07 12:24:55,246 INFO client.py Получено сообщение от пользователя Guest:
+dgdg
+2022-02-07 12:24:55,247 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644218695.2453022, 'mess_text': 'dgdg'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:55,247 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644218695.2453022, 'mess_text': 'dgdg'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:56,489 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218696.4897108, 'account_name': 'Guest', 'mess_text': 'fdhfdh'}
+2022-02-07 12:24:56,490 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56667), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:24:56,784 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644218696.7849247, 'mess_text': 'fdhfdh'}
+2022-02-07 12:24:56,784 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644218696.7849247, 'mess_text': 'fdhfdh'}
+2022-02-07 12:25:01,036 ERROR client.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-02-07 12:25:01,036 ERROR client.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-02-07 12:28:36,933 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,933 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:28:36,934 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:28:36,935 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,938 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,938 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:28:36,939 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:28:36,940 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,946 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:28:36,946 INFO client.py Подключение успешно
+2022-02-07 12:28:36,947 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,947 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:28:36,953 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,953 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:28:36,953 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,953 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:28:36,954 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:28:36,955 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,968 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:28:36,968 INFO client.py Подключение успешно
+2022-02-07 12:28:36,969 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,969 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:28:36,988 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:28:36,988 INFO client.py Подключение успешно
+2022-02-07 12:28:36,989 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:36,989 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:28:37,007 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:28:37,008 INFO client.py Подключение успешно
+2022-02-07 12:28:37,008 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:37,008 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:28:46,297 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218926.2974715, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-07 12:28:46,298 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56702), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:46,662 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-07 12:28:46,663 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644218926.6615198, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:46,663 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644218926.6615198, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:53,504 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218933.5045063, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-07 12:28:53,505 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56702), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:28:53,830 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644218933.82938, 'mess_text': 'poka'}
+2022-02-07 12:29:21,575 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218961.5753913, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-07 12:29:21,576 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56702), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:29:26,394 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218966.3948286, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-07 12:29:26,395 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56702), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:29:33,645 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644218973.6455514, 'account_name': 'Guest', 'mess_text': '233223'}
+2022-02-07 12:29:33,646 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56702), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,550 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,550 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:32:11,551 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:32:11,552 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,552 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:32:11,553 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:32:11,554 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,560 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,560 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:32:11,561 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:32:11,561 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,562 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:32:11,562 INFO client.py Подключение успешно
+2022-02-07 12:32:11,563 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,563 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:32:11,566 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,566 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:32:11,567 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:32:11,568 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,582 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:32:11,582 INFO client.py Подключение успешно
+2022-02-07 12:32:11,583 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,583 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:32:11,600 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:32:11,601 INFO client.py Подключение успешно
+2022-02-07 12:32:11,601 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,601 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:32:11,621 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:32:11,621 INFO client.py Подключение успешно
+2022-02-07 12:32:11,622 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:11,622 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:32:28,852 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219148.8526998, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-07 12:32:28,853 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56723), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:28,943 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-07 12:32:28,943 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-07 12:32:28,944 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219148.9438221, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:28,944 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219148.9438221, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:32,688 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219152.6878266, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-07 12:32:32,688 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56723), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:33,018 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219153.0180764, 'mess_text': 'poka'}
+2022-02-07 12:32:33,018 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219153.0180764, 'mess_text': 'poka'}
+2022-02-07 12:32:38,583 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219158.5836852, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-07 12:32:38,584 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56725), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:38,656 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-07 12:32:38,656 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-07 12:32:38,657 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219158.6557114, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:38,657 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219158.6557114, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:41,834 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219161.8340106, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-07 12:32:41,834 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56725), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:42,213 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219162.2121193, 'mess_text': 'poka'}
+2022-02-07 12:32:42,213 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219162.2121193, 'mess_text': 'poka'}
+2022-02-07 12:32:45,478 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219165.478752, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-07 12:32:45,479 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56723), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:45,772 INFO client.py Получено сообщение от пользователя Guest:
+poka
+2022-02-07 12:32:45,772 INFO client.py Получено сообщение от пользователя Guest:
+poka
+2022-02-07 12:32:45,773 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219165.771457, 'mess_text': 'poka'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:45,773 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219165.771457, 'mess_text': 'poka'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:50,451 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219170.4515147, 'account_name': 'Guest', 'mess_text': 'jkdfnmgvjkerds'}
+2022-02-07 12:32:50,452 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56723), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:50,894 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219170.8940358, 'mess_text': 'jkdfnmgvjkerds'}
+2022-02-07 12:32:50,894 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219170.8940358, 'mess_text': 'jkdfnmgvjkerds'}
+2022-02-07 12:32:53,563 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219173.5637703, 'account_name': 'Guest', 'mess_text': 'SEFGVSAGREF'}
+2022-02-07 12:32:53,564 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56725), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:53,960 INFO client.py Получено сообщение от пользователя Guest:
+SEFGVSAGREF
+2022-02-07 12:32:53,960 INFO client.py Получено сообщение от пользователя Guest:
+SEFGVSAGREF
+2022-02-07 12:32:53,961 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219173.9595315, 'mess_text': 'SEFGVSAGREF'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:32:53,961 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219173.9595315, 'mess_text': 'SEFGVSAGREF'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,580 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,580 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:43:09,581 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:43:09,582 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,592 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,592 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:43:09,593 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:43:09,594 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,594 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:43:09,594 INFO client.py Подключение успешно
+2022-02-07 12:43:09,595 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,595 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:43:09,595 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,595 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,595 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:43:09,595 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:43:09,596 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:43:09,596 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:43:09,597 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:43:09,597 INFO client.py Подключение успешно
+2022-02-07 12:43:09,597 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,597 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,597 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,598 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:43:09,598 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:43:09,598 INFO client.py Подключение успешно
+2022-02-07 12:43:09,599 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,599 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:43:09,599 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:43:09,599 INFO client.py Подключение успешно
+2022-02-07 12:43:09,600 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:09,600 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:43:27,718 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219807.7184834, 'account_name': 'Guest', 'mess_text': 'privet'}
+2022-02-07 12:43:27,719 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56764), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:27,857 INFO client.py Получено сообщение от пользователя Guest:
+privet
+2022-02-07 12:43:27,858 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219807.856526, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:27,858 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219807.856526, 'mess_text': 'privet'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:30,924 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219810.9240036, 'account_name': 'Guest', 'mess_text': 'poka'}
+2022-02-07 12:43:30,924 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56764), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:31,396 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219811.3969975, 'mess_text': 'poka'}
+2022-02-07 12:43:31,396 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219811.3969975, 'mess_text': 'poka'}
+2022-02-07 12:43:35,628 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219815.6282294, 'account_name': 'Guest', 'mess_text': 'kmldfggkmldf'}
+2022-02-07 12:43:35,629 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56764), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:35,977 INFO client.py Получено сообщение от пользователя Guest:
+kmldfggkmldf
+2022-02-07 12:43:35,977 INFO client.py Получено сообщение от пользователя Guest:
+kmldfggkmldf
+2022-02-07 12:43:35,978 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219815.9772298, 'mess_text': 'kmldfggkmldf'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:35,978 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219815.9772298, 'mess_text': 'kmldfggkmldf'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:39,190 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219819.1903849, 'account_name': 'Guest', 'mess_text': 'kjldfvgklm'}
+2022-02-07 12:43:39,191 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56764), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:39,524 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219819.5245414, 'mess_text': 'kjldfvgklm'}
+2022-02-07 12:43:40,933 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219820.9335406, 'account_name': 'Guest', 'mess_text': 'rgergrteg'}
+2022-02-07 12:43:40,934 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56764), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:41,038 INFO client.py Получено сообщение от пользователя Guest:
+rgergrteg
+2022-02-07 12:43:41,038 INFO client.py Получено сообщение от пользователя Guest:
+rgergrteg
+2022-02-07 12:43:41,039 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219821.0385413, 'mess_text': 'rgergrteg'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:44,712 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219824.712932, 'account_name': 'Guest', 'mess_text': 'esgrtghrtg'}
+2022-02-07 12:43:44,713 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56767), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:45,084 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219825.084, 'mess_text': 'esgrtghrtg'}
+2022-02-07 12:43:45,084 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644219825.084, 'mess_text': 'esgrtghrtg'}
+2022-02-07 12:43:46,158 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644219826.1586652, 'account_name': 'Guest', 'mess_text': 'sgtrg'}
+2022-02-07 12:43:46,159 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56767), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:46,618 INFO client.py Получено сообщение от пользователя Guest:
+sgtrg
+2022-02-07 12:43:46,618 INFO client.py Получено сообщение от пользователя Guest:
+sgtrg
+2022-02-07 12:43:46,619 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219826.617675, 'mess_text': 'sgtrg'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:43:46,619 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644219826.617675, 'mess_text': 'sgtrg'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:20,963 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:20,963 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:47:20,964 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:47:20,965 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:20,992 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:20,992 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:47:20,993 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:47:20,994 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:47:20,994 INFO client.py Подключение успешно
+2022-02-07 12:47:20,994 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:20,995 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:20,995 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:47:20,997 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:20,997 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:47:20,998 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:47:20,999 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:47:20,999 INFO client.py Подключение успешно
+2022-02-07 12:47:20,999 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:21,000 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:21,000 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:47:21,002 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:21,002 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:47:21,004 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:47:21,004 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:47:21,004 INFO client.py Подключение успешно
+2022-02-07 12:47:21,005 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:21,006 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:21,006 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:47:21,509 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:47:21,509 INFO client.py Подключение успешно
+2022-02-07 12:47:21,510 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:21,510 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:47:30,246 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220050.2467844, 'account_name': 'Guest', 'mess_text': '1'}
+2022-02-07 12:47:30,247 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56788), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:30,611 INFO client.py Получено сообщение от пользователя Guest:
+1
+2022-02-07 12:47:30,611 INFO client.py Получено сообщение от пользователя Guest:
+1
+2022-02-07 12:47:30,612 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220050.6107807, 'mess_text': '1'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:30,612 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220050.6107807, 'mess_text': '1'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:31,705 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220051.7057786, 'account_name': 'Guest', 'mess_text': '2'}
+2022-02-07 12:47:31,706 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56788), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:32,135 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644220052.135757, 'mess_text': '2'}
+2022-02-07 12:47:32,135 INFO client.py Сообщение получено. {'action': 'message', 'sender': 'Guest', 'time': 1644220052.135757, 'mess_text': '2'}
+2022-02-07 12:47:33,290 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220053.290747, 'account_name': 'Guest', 'mess_text': '3'}
+2022-02-07 12:47:33,291 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56788), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:33,655 INFO client.py Получено сообщение от пользователя Guest:
+3
+2022-02-07 12:47:33,656 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220053.6557477, 'mess_text': '3'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:47:33,656 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220053.6557477, 'mess_text': '3'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,053 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,053 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:52:43,054 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:52:43,055 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,065 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,065 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:52:43,066 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,066 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:52:43,066 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:52:43,067 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:52:43,067 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:52:43,067 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,067 INFO client.py Подключение успешно
+2022-02-07 12:52:43,067 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,068 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,068 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:52:43,068 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:52:43,068 INFO client.py Подключение успешно
+2022-02-07 12:52:43,069 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,069 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:52:43,069 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:52:43,070 INFO client.py Подключение успешно
+2022-02-07 12:52:43,071 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,071 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:52:43,075 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,076 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:52:43,077 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:52:43,078 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,583 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:52:43,583 INFO client.py Подключение успешно
+2022-02-07 12:52:43,584 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:43,584 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:52:53,567 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220373.5675795, 'account_name': 'Guest', 'mess_text': '1'}
+2022-02-07 12:52:53,568 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56795), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:53,701 INFO client.py Получено сообщение от пользователя Guest:
+1
+2022-02-07 12:52:53,701 INFO client.py Получено сообщение от пользователя Guest:
+1
+2022-02-07 12:52:53,702 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220373.7005703, 'mess_text': '1'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:53,702 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220373.7005703, 'mess_text': '1'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:54,830 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220374.8301451, 'account_name': 'Guest', 'mess_text': '2'}
+2022-02-07 12:52:54,831 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56795), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:55,221 INFO client.py Получено сообщение от пользователя Guest:
+2
+2022-02-07 12:52:55,221 INFO client.py Получено сообщение от пользователя Guest:
+2
+2022-02-07 12:52:55,222 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220375.2201898, 'mess_text': '2'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:55,222 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220375.2201898, 'mess_text': '2'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:56,689 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220376.6895118, 'account_name': 'Guest', 'mess_text': '3'}
+2022-02-07 12:52:56,690 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56795), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:56,742 INFO client.py Получено сообщение от пользователя Guest:
+3
+2022-02-07 12:52:56,742 INFO client.py Получено сообщение от пользователя Guest:
+3
+2022-02-07 12:52:56,743 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220376.741511, 'mess_text': '3'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:56,743 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220376.741511, 'mess_text': '3'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:57,671 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220377.6715105, 'account_name': 'Guest', 'mess_text': '4'}
+2022-02-07 12:52:57,672 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56795), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:57,755 INFO client.py Получено сообщение от пользователя Guest:
+4
+2022-02-07 12:52:57,755 INFO client.py Получено сообщение от пользователя Guest:
+4
+2022-02-07 12:52:57,757 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220377.755512, 'mess_text': '4'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:57,757 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220377.755512, 'mess_text': '4'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:58,731 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220378.7315767, 'account_name': 'Guest', 'mess_text': '5'}
+2022-02-07 12:52:58,732 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56795), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:58,778 INFO client.py Получено сообщение от пользователя Guest:
+5
+2022-02-07 12:52:58,778 INFO client.py Получено сообщение от пользователя Guest:
+5
+2022-02-07 12:52:58,779 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220378.778574, 'mess_text': '5'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:52:58,779 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220378.778574, 'mess_text': '5'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:04,580 ERROR client.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-02-07 12:53:54,219 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,220 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:53:54,221 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:53:54,221 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,231 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,231 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:53:54,233 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:53:54,233 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:53:54,233 INFO client.py Подключение успешно
+2022-02-07 12:53:54,233 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,234 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,234 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:listen
+2022-02-07 12:53:54,234 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,234 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:53:54,235 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:53:54,236 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:53:54,236 INFO client.py Подключение успешно
+2022-02-07 12:53:54,236 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,237 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,237 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:53:54,237 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,237 INFO client.py Запущен клиент с ip-адресом127.0.0.1, порт:7778, с режимом работы:send
+2022-02-07 12:53:54,238 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-07 12:53:54,239 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:53:54,239 INFO client.py Подключение успешно
+2022-02-07 12:53:54,239 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,240 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,240 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:53:54,745 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-07 12:53:54,745 INFO client.py Подключение успешно
+2022-02-07 12:53:54,746 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:53:54,746 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-07 12:54:06,075 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220446.0746164, 'account_name': 'Guest', 'mess_text': '1'}
+2022-02-07 12:54:06,076 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56831), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:54:06,418 INFO client.py Получено сообщение от пользователя Guest:
+1
+2022-02-07 12:54:06,418 INFO client.py Получено сообщение от пользователя Guest:
+1
+2022-02-07 12:54:06,419 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220446.4176102, 'mess_text': '1'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:54:06,419 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220446.4176102, 'mess_text': '1'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:54:08,834 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220448.8347404, 'account_name': 'Guest', 'mess_text': '2'}
+2022-02-07 12:54:08,835 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56829), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:54:08,952 INFO client.py Получено сообщение от пользователя Guest:
+2
+2022-02-07 12:54:08,952 INFO client.py Получено сообщение от пользователя Guest:
+2
+2022-02-07 12:54:08,953 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220448.9517426, 'mess_text': '2'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:54:08,953 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220448.9517426, 'mess_text': '2'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:54:09,996 DEBUG client.py Создано сообщение {'action': 'message', 'time': 1644220449.996738, 'account_name': 'Guest', 'mess_text': '3'}
+2022-02-07 12:54:09,997 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56829), raddr=('127.0.0.1', 7778)>,), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:54:10,467 INFO client.py Получено сообщение от пользователя Guest:
+3
+2022-02-07 12:54:10,468 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220450.467794, 'mess_text': '3'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-07 12:54:10,469 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220450.467794, 'mess_text': '3'},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
