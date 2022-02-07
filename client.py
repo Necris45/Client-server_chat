@@ -145,7 +145,6 @@ def main():
             if client_mode == 'listen':
                 try:
                     reciving_message_from_users(get_message(transport))
-                    print(get_message(transport))
                 except (ConnectionResetError, ConnectionError, ConnectionAbortedError):
                     logs.error(f'Соединение с сервером {server_address} было потеряно.')
                     sys.exit(1)

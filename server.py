@@ -25,15 +25,18 @@ def process_client_message(message, messages_list, client):
     :param client:
     :return:
     """
+    logs.debug(f'Разбор сообщения от клиента : {message}')
     if ACTION in message and message[ACTION] == PRESENCE and TIME in message and USER in message and \
             message[USER][ACCOUNT_NAME] == 'Guest':
         logs.info(f'Клиент {USER} подключился к серверу')
         send_message(client, {RESPONSE: 200})
     elif ACTION in message and message[ACTION] == MESSAGE and TIME in message and MESSAGE_TEXT in message:
         messages_list.append((message[ACCOUNT_NAME], message[MESSAGE_TEXT]))
+        return
     else:
         send_message(client, {RESPONSE: 400, ERROR: 'Bad Request'})
         logs.error('Клиент отправил некорректный запрос на подключение')
+        return
 
 
 @log
