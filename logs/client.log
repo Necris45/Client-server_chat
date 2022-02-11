@@ -1289,3 +1289,85 @@ sgtrg
 2022-02-07 12:54:10,469 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1644220450.467794, 'mess_text': '3'},), {}.
 Вызов из модуля client.py.
 Вызов из функции main.
+2022-02-09 14:54:44,057 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-09 14:54:44,069 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7778, имя пользователя: test2
+2022-02-09 14:54:44,584 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2022-02-09 14:54:44,584 DEBUG client.py Сформировано presence сообщение для пользователя test3
+2022-02-09 14:54:44,585 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {'account_name': 'test3'}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-09 14:54:44,585 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {'account_name': 'test2'}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-09 14:54:44,585 DEBUG decorator.py Была вызвана функция create_presence c параметрами (), {'account_name': 'test1'}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-09 14:54:44,596 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-09 14:54:44,596 INFO client.py Подключение успешно
+2022-02-09 14:54:44,597 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-09 14:54:44,597 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-09 14:54:44,598 DEBUG client.py Запущены процессы
+2022-02-09 14:54:44,612 DEBUG decorator.py Была вызвана функция print_help c параметрами (), {}.
+Вызов из модуля eading.py.
+Вызов из функции user_interactive.
+2022-02-09 14:54:44,616 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-09 14:54:44,616 INFO client.py Подключение успешно
+2022-02-09 14:54:44,617 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-09 14:54:44,617 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-09 14:54:44,618 DEBUG client.py Запущены процессы
+2022-02-09 14:54:44,621 DEBUG decorator.py Была вызвана функция print_help c параметрами (), {}.
+Вызов из модуля eading.py.
+Вызов из функции user_interactive.
+2022-02-09 14:54:44,639 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-09 14:54:44,639 INFO client.py Подключение успешно
+2022-02-09 14:54:44,640 DEBUG decorator.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.
+Вызов из модуля client.py.
+Вызов из функции main.
+2022-02-09 14:54:44,640 INFO client.py Установлено соединение с сервером. Ответ от сервера 200 : OK
+2022-02-09 14:54:44,641 DEBUG client.py Запущены процессы
+2022-02-09 14:54:44,644 DEBUG decorator.py Была вызвана функция print_help c параметрами (), {}.
+Вызов из модуля eading.py.
+Вызов из функции user_interactive.
+2022-02-09 14:55:32,525 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'sender': 'test3', 'to': 'test1', 'time': 1644400532.5247254, 'mess_text': 'privet'}
+2022-02-09 14:55:32,525 INFO client.py Отправлено сообщение для пользователя test1
+2022-02-09 14:55:32,526 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59492), raddr=('127.0.0.1', 7778)>, 'test3'), {}.
+Вызов из модуля eading.py.
+Вызов из функции user_interactive.
+2022-02-09 14:55:32,881 INFO client.py Получено сообщение от пользователя test3:
+privet
+2022-02-09 14:55:58,183 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'sender': 'test1', 'to': 'test2', 'time': 1644400558.1837254, 'mess_text': 'privet'}
+2022-02-09 14:55:58,183 INFO client.py Отправлено сообщение для пользователя test2
+2022-02-09 14:55:58,185 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59493), raddr=('127.0.0.1', 7778)>, 'test1'), {}.
+Вызов из модуля eading.py.
+Вызов из функции user_interactive.
+2022-02-09 14:55:58,264 INFO client.py Получено сообщение от пользователя test1:
+privet
+2022-02-09 14:56:22,810 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'sender': 'test2', 'to': 'test3', 'time': 1644400582.8109581, 'mess_text': 'poka'}
+2022-02-09 14:56:22,810 INFO client.py Отправлено сообщение для пользователя test3
+2022-02-09 14:56:22,811 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59491), raddr=('127.0.0.1', 7778)>, 'test2'), {}.
+Вызов из модуля eading.py.
+Вызов из функции user_interactive.
+2022-02-09 14:56:23,181 INFO client.py Получено сообщение от пользователя test2:
+poka
+2022-02-09 14:56:36,963 DEBUG decorator.py Была вызвана функция create_exit_message c параметрами ('test3',), {}.
+Вызов из модуля eading.py.
+Вызов из функции user_interactive.
+2022-02-09 14:56:36,963 INFO client.py Завершение работы по команде пользователя.
+2022-02-09 14:56:37,429 CRITICAL client.py Потеряно соединение с сервером.
+2022-02-09 14:56:37,430 DEBUG decorator.py Была вызвана функция reciving_message_from_users c параметрами (<socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59492), raddr=('127.0.0.1', 7778)>, 'test3'), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-09 14:56:37,471 DEBUG decorator.py Была вызвана функция user_interactive c параметрами (<socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59492), raddr=('127.0.0.1', 7778)>, 'test3'), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-09 14:56:49,664 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'sender': 'test2', 'to': 'test3', 'time': 1644400609.6649573, 'mess_text': 'poka'}
+2022-02-09 14:56:49,665 INFO client.py Отправлено сообщение для пользователя test3
+2022-02-09 14:56:49,666 DEBUG decorator.py Была вызвана функция create_message c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59491), raddr=('127.0.0.1', 7778)>, 'test2'), {}.
+Вызов из модуля eading.py.
+Вызов из функции user_interactive.
