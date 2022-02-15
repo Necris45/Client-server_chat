@@ -1,8 +1,9 @@
 # Написать функцию host_range_ping() для перебора ip-адресов из заданного диапазона. Меняться должен только последний
 # октет каждого адреса. По результатам проверки должно выводиться соответствующее сообщение.
-from subprocess import Popen, PIPE
+
 from task_1 import host_ping
 from ipaddress import ip_address
+
 
 def host_range_ping():
     while True:
@@ -24,7 +25,7 @@ def host_range_ping():
     if last_oct + quantity > 255:
         print(f'будет выведено только {quantity - (last_oct + quantity - 256)} адресов, так как остальные в диапазоне'
               f'имеют отличия не только в последнем октете')
-    for i in range (0, quantity):
+    for i in range(0, quantity):
         new_ip = added_ip + i
         str_1 = str(new_ip)
         if str_1.split('.')[0:3] == start_ip.split('.')[0:3]:
