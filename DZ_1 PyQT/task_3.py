@@ -16,5 +16,6 @@ from task_2 import host_range_ping
 def host_range_ping_tab(res):
     print(tabulate(res, headers='keys', tablefmt="presto"))
 
+
 if __name__ == '__main__':
     host_range_ping_tab(host_range_ping())
