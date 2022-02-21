@@ -7,7 +7,7 @@ logs = logging.getLogger('server')
 class Port:
     def __set__(self, instance, value):
         # instance - <__main__.Server object at 0x000000D582740C50>
-        # value - 77777780
+        # value - 7780
         if not 1023 < value < 65536:
             logs.critical(f'Попытка запуска сервера с указанием неподходящего порта {value}. Допустимы адреса с 1024 '
                           f'до 65535.')

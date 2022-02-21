@@ -4,8 +4,8 @@ import json
 import sys
 import time
 import threading
+import socket
 from logging import getLogger
-from socket import socket, AF_INET, SOCK_STREAM
 from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR, DEFAULT_IP_ADDRESS, \
     DEFAULT_PORT, MESSAGE_TEXT, MESSAGE, SENDER, EXIT, DESTINATION
 from common.utils import get_message, send_message
@@ -170,7 +170,7 @@ def main():
               f'имя пользователя: {client_name}')
     # Инициализация сокета и сообщение серверу о нашем появлении
     try:
-        transport = socket(AF_INET, SOCK_STREAM)
+        transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         transport.connect((server_address, server_port))
         send_message(transport, create_presence(client_name))
         answer = process_response_ans(get_message(transport))
