@@ -1,10 +1,11 @@
 """Утилиты"""
-
 import json
 from common.variables import MAX_PACKAGE_LENGTH, ENCODING
 from errors import IncorrectDataRecivedError, NonDictInputError
+from decorator import log
 
 
+@log
 def get_message(client):
     """
     Утилита приёма и декодирования сообщения принимает байты выдаёт словарь, если принято что-то другое,
@@ -22,6 +23,7 @@ def get_message(client):
     raise IncorrectDataRecivedError
 
 
+@log
 def send_message(sock, message):
     """
     Утилита кодирования и отправки сообщения принимает словарь и отправляет его
