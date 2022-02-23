@@ -1,7 +1,9 @@
 """Утилиты"""
+import sys
 import json
 from common.variables import MAX_PACKAGE_LENGTH, ENCODING
 from errors import IncorrectDataRecivedError, NonDictInputError
+sys.path.append('../')
 from decorator import log
 
 
