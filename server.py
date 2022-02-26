@@ -25,6 +25,7 @@ logs = getLogger('server')
 new_connection = False
 conflag_lock = threading.Lock()
 
+
 @log
 def arg_parser(default_port, default_address):
     parser = argparse.ArgumentParser()
@@ -99,7 +100,7 @@ class Server(threading.Thread, metaclass=ServerMaker):
                         self.process_client_message(get_message(client_with_message), client_with_message)
                     except Exception:
                         logs.info(f'Клиент {client_with_message.getpeername()} отключился от сервера.')
-                        for name in self.names:#add_new
+                        for name in self.names:  # add_new
                             if self.names[name] == client_with_message:
                                 self.database.user_logout(name)
                                 del self.names[name]
@@ -142,7 +143,7 @@ class Server(threading.Thread, metaclass=ServerMaker):
                 client_ip, client_port = client.getpeername()
                 self.database.user_login(message[USER][ACCOUNT_NAME], client_ip, client_port)
                 send_message(client, RESPONSE_200)
-                with conflag_lock:#add_new
+                with conflag_lock:  # add_new
                     new_connection = True
             else:
                 response = RESPONSE_400
@@ -173,24 +174,24 @@ class Server(threading.Thread, metaclass=ServerMaker):
                 self.names[message[USER]] == client:
             response = RESPONSE_202
             response[LIST_INFO] = self.database.get_contacts(message[USER])
-            send_message(client, response)#add_new
+            send_message(client, response)  # add_new
         # Если это добавление контакта
         elif ACTION in message and message[ACTION] == ADD_CONTACT and ACCOUNT_NAME in message and USER in message \
                 and self.names[message[USER]] == client:
             self.database.add_contact(message[USER], message[ACCOUNT_NAME])
-            send_message(client, RESPONSE_200)#add_new
+            send_message(client, RESPONSE_200)  # add_new
         # Если это удаление контакта
         elif ACTION in message and message[ACTION] == REMOVE_CONTACT and ACCOUNT_NAME in message and USER in message \
                 and self.names[message[USER]] == client:
             self.database.remove_contact(message[USER], message[ACCOUNT_NAME])
-            send_message(client, RESPONSE_200)#add_new
+            send_message(client, RESPONSE_200)  # add_new
         # Если это запрос известных пользователей
         elif ACTION in message and message[ACTION] == USERS_REQUEST and ACCOUNT_NAME in message \
                 and self.names[message[ACCOUNT_NAME]] == client:
             response = RESPONSE_202
             response[LIST_INFO] = [user[0]
                                    for user in self.database.users_list()]
-            send_message(client, response)#add_new
+            send_message(client, response)  # add_new
 
         # Иначе отдаём Bad request
         else:
@@ -221,18 +222,18 @@ def main():
     # Создание экземпляра класса - сервера и его запуск:
     server = Server(listen_address, listen_port, database)
     server.daemon = True
-    server.start()#Запуск в отдельном потоке(помним что start)#threding
+    server.start()  # Запуск в отдельном потоке(помним что start)#threding
 
     # Создаём графическое окуружение для сервера:
-    server_app = QApplication(sys.argv)#создаем приложение
+    server_app = QApplication(sys.argv)  # создаем приложение
     main_window = MainWindow()
-    #ЗАПУСК РАБОТАЕТ ПАРАЛЕЛЬНО СЕРВЕРА(К ОКНУ)
-    #ГЛАВНОМ ПОТОКЕ ЗАПУСКАЕМ НАШ GUI - ГРАФИЧЕСКИЙ ИНТЕРФЕС ПОЛЬЗОВАТЕЛЯ
-
+    # ЗАПУСК РАБОТАЕТ ПАРАЛЕЛЬНО СЕРВЕРА(К ОКНУ)
+    # ГЛАВНОМ ПОТОКЕ ЗАПУСКАЕМ НАШ GUI - ГРАФИЧЕСКИЙ ИНТЕРФЕС ПОЛЬЗОВАТЕЛЯ
 
     # Инициализируем параметры в окна Главное окно
-    main_window.statusBar().showMessage('Server Working')#подвал
-    main_window.active_clients_table.setModel(gui_create_model(database))#заполняем таблицу основного окна делаем разметку и заполянем ее
+    main_window.statusBar().showMessage('Server Working')  # подвал
+    # заполняем таблицу основного окна делаем разметку и заполянем ее
+    main_window.active_clients_table.setModel(gui_create_model(database))
     main_window.active_clients_table.resizeColumnsToContents()
     main_window.active_clients_table.resizeRowsToContents()
 
