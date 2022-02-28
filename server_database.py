@@ -7,7 +7,6 @@ import datetime
 # Класс - серверная база данных:
 class ServerStorage:
     # Класс - отображение таблицы всех пользователей
-    # Экземпляр этого класса = запись в таблице AllUsers
     class AllUsers:
         def __init__(self, username):
             self.name = username
@@ -15,7 +14,6 @@ class ServerStorage:
             self.id = None
 
     # Класс - отображение таблицы активных пользователей:
-    # Экземпляр этого класса = запись в таблице ActiveUsers
     class ActiveUsers:
         def __init__(self, user_id, ip_address, port, login_time):
             self.user = user_id
@@ -25,7 +23,6 @@ class ServerStorage:
             self.id = None
 
     # Класс - отображение таблицы истории входов
-    # Экземпляр этого класса = запись в таблице LoginHistory
     class LoginHistory:
         def __init__(self, name, date, ip, port):
             self.id = None
@@ -34,13 +31,13 @@ class ServerStorage:
             self.ip = ip
             self.port = port
 
-    class UsersContacts:#add_new
+    class UsersContacts:  # add_new
         def __init__(self, user, contact):
             self.id = None
             self.user = user
             self.contact = contact
 
-    class UsersHistory:#add_new
+    class UsersHistory:  # add_new
         def __init__(self, user):
             self.id = None
             self.user = user
@@ -121,7 +118,7 @@ class ServerStorage:
 
     # Функция выполняющяяся при входе пользователя, записывает в базу факт входа
     def user_login(self, username, ip_address, port):
-        print(username, ip_address, port)
+        # print(username, ip_address, port)
         # Запрос в таблицу пользователей на наличие там пользователя с таким именем
         rez = self.session.query(self.AllUsers).filter_by(name=username)
         # print(type(rez))
@@ -175,7 +172,7 @@ class ServerStorage:
         recipient_row = self.session.query(self.UsersHistory).filter_by(user=recipient).first()
         recipient_row.accepted += 1
 
-        self.session.commit()#add_new
+        self.session.commit()  # add_new
 
     def add_contact(self, user, contact):
         # Получаем ID пользователей
@@ -189,7 +186,7 @@ class ServerStorage:
         # Создаём объект и заносим его в базу
         contact_row = self.UsersContacts(user.id, contact.id)
         self.session.add(contact_row)
-        self.session.commit()#add_new
+        self.session.commit()  # add_new
 
     # Функция удаляет контакт из базы данных
     def remove_contact(self, user, contact):
@@ -202,11 +199,11 @@ class ServerStorage:
             return
 
         # Удаляем требуемое
-        print(self.session.query(self.UsersContacts).filter(
+        self.session.query(self.UsersContacts).filter(
             self.UsersContacts.user == user.id,
             self.UsersContacts.contact == contact.id
-        ).delete())
-        self.session.commit()#add_new
+        ).delete()
+        self.session.commit()  # add_new
 
     # Функция возвращает список известных пользователей со временем последнего входа.
     def users_list(self):
@@ -253,10 +250,10 @@ class ServerStorage:
             join(self.AllUsers, self.UsersContacts.contact == self.AllUsers.id)
 
         # выбираем только имена пользователей и возвращаем их.
-        return [contact[1] for contact in query.all()]#add_new
+        return [contact[1] for contact in query.all()]  # add_new
 
     # Функция возвращает количество переданных и полученных сообщений
-    def message_history(self):#add_new
+    def message_history(self):  # add_new
         query = self.session.query(
             self.AllUsers.name,
             self.AllUsers.last_login,
@@ -273,5 +270,12 @@ if __name__ == '__main__':
     test_db.user_login('1111', '192.168.1.113', 8080)
     test_db.user_login('McG2', '192.168.1.113', 8081)
     print(test_db.users_list())
+    # print(test_db.active_users_list())
+    # test_db.user_logout('McG')
+    # print(test_db.login_history('re'))
+    # test_db.add_contact('test2', 'test1')
+    # test_db.add_contact('test1', 'test3')
+    # test_db.add_contact('test1', 'test6')
+    # test_db.remove_contact('test1', 'test3')
     test_db.process_message('McG2', '1111')
     print(test_db.message_history())

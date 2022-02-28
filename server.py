@@ -2,24 +2,20 @@ import socket
 import sys
 import os
 import argparse
-import json
 import select
-import time
 import threading
 import configparser
 from logging import getLogger
+import logs.server_log_config
 from common.variables import *
 from common.utils import get_message, send_message
-from logs import server_log_config
-from errors import IncorrectDataRecivedError
-from decorator import log
+from common.decorator import log
 from metaclasses import ServerMaker
 from descriptrs import Port
 from server_database import ServerStorage
 from PyQt5.QtWidgets import QApplication, QMessageBox
 from PyQt5.QtCore import QTimer
 from server_gui import MainWindow, gui_create_model, HistoryWindow, create_stat_model, ConfigWindow
-from PyQt5.QtGui import QStandardItemModel, QStandardItem
 
 logs = getLogger('server')
 new_connection = False
@@ -70,6 +66,7 @@ class Server(threading.Thread, metaclass=ServerMaker):
 
     def run(self):
         # Инициализация Сокета
+        global new_connection
         self.init_socket()
 
         # Основной цикл программы сервера
@@ -98,14 +95,16 @@ class Server(threading.Thread, metaclass=ServerMaker):
                 for client_with_message in recv_data_lst:
                     try:
                         self.process_client_message(get_message(client_with_message), client_with_message)
-                    except Exception:
+                    except (OSError):
                         logs.info(f'Клиент {client_with_message.getpeername()} отключился от сервера.')
-                        for name in self.names:  # add_new
+                        for name in self.names:
                             if self.names[name] == client_with_message:
                                 self.database.user_logout(name)
                                 del self.names[name]
                                 break
                         self.clients.remove(client_with_message)
+                        with conflag_lock:
+                            new_connection = True
 
             # Если есть сообщения, обрабатываем каждое.
             for message in self.messages:
@@ -114,7 +113,10 @@ class Server(threading.Thread, metaclass=ServerMaker):
                 except Exception:
                     logs.info(f'Связь с клиентом с именем {message[DESTINATION]} была потеряна')
                     self.clients.remove(self.names[message[DESTINATION]])
+                    self.database.user_logout(message[DESTINATION])
                     del self.names[message[DESTINATION]]
+                    with conflag_lock:
+                        new_connection = True
             self.messages.clear()
 
     # Функция адресной отправки сообщения определённому клиенту. Принимает словарь сообщение, список зарегистрированых
@@ -143,7 +145,7 @@ class Server(threading.Thread, metaclass=ServerMaker):
                 client_ip, client_port = client.getpeername()
                 self.database.user_login(message[USER][ACCOUNT_NAME], client_ip, client_port)
                 send_message(client, RESPONSE_200)
-                with conflag_lock:  # add_new
+                with conflag_lock:
                     new_connection = True
             else:
                 response = RESPONSE_400
@@ -155,8 +157,14 @@ class Server(threading.Thread, metaclass=ServerMaker):
         # Если это сообщение, то добавляем его в очередь сообщений. Ответ не требуется.
         elif ACTION in message and message[ACTION] == MESSAGE and DESTINATION in message and TIME in message \
                 and SENDER in message and MESSAGE_TEXT in message:
-            self.messages.append(message)
-            self.database.process_message(message[SENDER], message[DESTINATION])
+            if message[DESTINATION] in self.names:
+                self.messages.append(message)
+                self.database.process_message(message[SENDER], message[DESTINATION])
+                send_message(client, RESPONSE_200)
+            else:
+                response = RESPONSE_400
+                response[ERROR] = 'Пользователь не зарегистрирован на сервере.'
+                send_message(client, response)
             return
         # Если клиент выходит
         elif ACTION in message and message[ACTION] == EXIT and ACCOUNT_NAME in message \
@@ -189,8 +197,7 @@ class Server(threading.Thread, metaclass=ServerMaker):
         elif ACTION in message and message[ACTION] == USERS_REQUEST and ACCOUNT_NAME in message \
                 and self.names[message[ACCOUNT_NAME]] == client:
             response = RESPONSE_202
-            response[LIST_INFO] = [user[0]
-                                   for user in self.database.users_list()]
+            response[LIST_INFO] = [user[0] for user in self.database.users_list()]
             send_message(client, response)  # add_new
 
         # Иначе отдаём Bad request
@@ -201,13 +208,26 @@ class Server(threading.Thread, metaclass=ServerMaker):
             return
 
 
-def main():
-    # Загрузка файла конфигурации сервера
+# Загрузка файла конфигурации
+def config_load():
     config = configparser.ConfigParser()
-
     dir_path = os.path.dirname(os.path.realpath(__file__))
     config.read(f"{dir_path}/{'server.ini'}")
+    # Если конфиг файл загружен правильно, запускаемся, иначе конфиг по умолчанию.
+    if 'SETTINGS' in config:
+        return config
+    else:
+        config.add_section('SETTINGS')
+        config.set('SETTINGS', 'Default_port', str(DEFAULT_PORT))
+        config.set('SETTINGS', 'Listen_Address', '')
+        config.set('SETTINGS', 'Database_path', '')
+        config.set('SETTINGS', 'Database_file', 'server_database.db3')
+        return config
 
+
+def main():
+    # Загрузка файла конфигурации сервера
+    config = config_load()
     # Загрузка параметров командной строки, если нет параметров, то задаём
     # значения по умоланию.
     listen_address, listen_port = arg_parser(
@@ -256,9 +276,9 @@ def main():
         stat_window.history_table.setModel(create_stat_model(database))
         stat_window.history_table.resizeColumnsToContents()
         stat_window.history_table.resizeRowsToContents()
-        # stat_window.show()
+        stat_window.show()
 
-    # Функция создающяя окно с настройками сервера.
+    # Функция создающая окно с настройками сервера.
     def server_config():
         global config_window
         # Создаём окно и заносим в него текущие параметры
@@ -283,16 +303,12 @@ def main():
             config['SETTINGS']['Listen_Address'] = config_window.ip.text()
             if 1023 < port < 65536:
                 config['SETTINGS']['Default_port'] = str(port)
-                print(port)
-                with open('server.ini', 'w') as conf:
+                dir_path = os.path.dirname(os.path.realpath(__file__))
+                with open(f"{dir_path}/{'server.ini'}", 'w') as conf:
                     config.write(conf)
-                    message.information(
-                        config_window, 'OK', 'Настройки успешно сохранены!')
+                    message.information(config_window, 'OK', 'Настройки успешно сохранены!')
             else:
-                message.warning(
-                    config_window,
-                    'Ошибка',
-                    'Порт должен быть от 1024 до 65536')
+                message.warning(config_window, 'Ошибка', 'Порт должен быть от 1024 до 65536')
 
     # Таймер, обновляющий список клиентов 1 раз в секунду
     timer = QTimer()
