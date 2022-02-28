@@ -1,127 +1,346 @@
-2022-02-23 22:16:42,229 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+2022-02-26 15:16:22,885 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
 Вызов из модуля server.py.
 Вызов из функции main.
-2022-02-23 22:16:42,384 INFO server.py Запущен сервер, порт для подключений: 7780 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-02-23 22:20:55,873 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62327)
-2022-02-23 22:20:55,874 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62328)
-2022-02-23 22:20:55,877 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62327)>,), {}.
-Вызов из модуля eading.py.
-Вызов из функции run.
-2022-02-23 22:20:55,877 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645636855.8732183, 'user': {'account_name': 'test2'}}
-2022-02-23 22:20:55,998 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62327)>, {'response': 200}), {}.
-Вызов из модуля eading.py.
-Вызов из функции process_client_message.
-2022-02-23 22:20:55,999 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62329)
-2022-02-23 22:20:56,000 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62328)>,), {}.
-Вызов из модуля eading.py.
-Вызов из функции run.
-2022-02-23 22:20:56,000 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645636855.87422, 'user': {'account_name': 'test1'}}
-2022-02-23 22:20:56,103 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62328)>, {'response': 200}), {}.
-Вызов из модуля eading.py.
-Вызов из функции process_client_message.
-2022-02-23 22:20:56,105 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62329)>,), {}.
-Вызов из модуля eading.py.
-Вызов из функции run.
-2022-02-23 22:20:56,105 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645636855.87422, 'user': {'account_name': 'test3'}}
-2022-02-23 22:20:56,137 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+2022-02-26 15:18:24,137 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
 Вызов из модуля server.py.
 Вызов из функции main.
-2022-02-23 22:20:56,229 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62329)>, {'response': 200}), {}.
-Вызов из модуля eading.py.
-Вызов из функции process_client_message.
-2022-02-23 22:20:56,366 INFO server.py Запущен сервер, порт для подключений: 7780 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-02-23 22:21:23,080 INFO server.py Клиент ('127.0.0.1', 62328) отключился от сервера.
-2022-02-23 22:21:24,605 INFO server.py Клиент ('127.0.0.1', 62329) отключился от сервера.
-2022-02-23 22:21:25,106 INFO server.py Клиент ('127.0.0.1', 62327) отключился от сервера.
-2022-02-23 22:22:36,501 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+2022-02-26 15:18:24,261 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 15:19:11,965 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
 Вызов из модуля server.py.
 Вызов из функции main.
-2022-02-23 22:22:36,642 INFO server.py Запущен сервер, порт для подключений: 7780 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-02-23 22:22:36,826 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62344)
-2022-02-23 22:22:36,835 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62345)
-2022-02-23 22:22:36,836 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62344)>,), {}.
+2022-02-26 15:19:12,089 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 15:19:12,599 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54699)
+2022-02-26 15:19:12,599 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54700)
+2022-02-26 15:19:12,600 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54701)
+2022-02-26 15:19:13,112 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54699)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:22:36,836 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645636956.8255625, 'user': {'account_name': 'test1'}}
-2022-02-23 22:22:36,837 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62344)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}), {}.
+2022-02-26 15:19:13,112 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645870752.598575, 'user': {'account_name': 'test3'}}
+2022-02-26 15:19:13,257 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54699)>, {'response': 200}), {}.
 Вызов из модуля eading.py.
 Вызов из функции process_client_message.
-2022-02-23 22:22:36,838 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62346)
-2022-02-23 22:22:36,839 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62345)>,), {}.
+2022-02-26 15:19:13,258 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54700)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:22:36,839 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645636956.8355608, 'user': {'account_name': 'test3'}}
-2022-02-23 22:22:36,840 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62345)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}), {}.
+2022-02-26 15:19:13,258 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645870752.599575, 'user': {'account_name': 'test2'}}
+2022-02-26 15:19:13,405 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54700)>, {'response': 200}), {}.
 Вызов из модуля eading.py.
 Вызов из функции process_client_message.
-2022-02-23 22:22:36,841 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62346)>,), {}.
+2022-02-26 15:19:13,406 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54701)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:22:36,841 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645636956.8355608, 'user': {'account_name': 'test2'}}
-2022-02-23 22:22:36,843 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7780), raddr=('127.0.0.1', 62346)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}), {}.
-Вызов из модуля eading.py.
-Вызов из функции process_client_message.
-2022-02-23 22:23:05,904 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+2022-02-26 15:19:13,406 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645870752.6005754, 'user': {'account_name': 'test1'}}
+2022-02-26 15:19:52,068 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
 Вызов из модуля server.py.
 Вызов из функции main.
-2022-02-23 22:23:06,071 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-02-23 22:23:06,245 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62349)
-2022-02-23 22:23:06,252 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62350)
-2022-02-23 22:23:06,254 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62349)>,), {}.
+2022-02-26 15:19:52,233 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 15:19:52,615 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54703)
+2022-02-26 15:19:52,628 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:23:06,254 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645636986.245253, 'user': {'account_name': 'test3'}}
-2022-02-23 22:23:06,378 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62349)>, {'response': 200}), {}.
+2022-02-26 15:19:52,628 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645870792.5544388, 'user': {'account_name': 'test5'}}
+2022-02-26 15:19:52,849 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>, {'response': 200}), {}.
 Вызов из модуля eading.py.
 Вызов из функции process_client_message.
-2022-02-23 22:23:06,378 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62351)
-2022-02-23 22:23:06,379 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62350)>,), {}.
+2022-02-26 15:19:53,853 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:23:06,379 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645636986.2522478, 'user': {'account_name': 'test2'}}
-2022-02-23 22:23:06,504 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62350)>, {'response': 200}), {}.
+2022-02-26 15:19:53,853 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645870793.3807867, 'account_name': 'test5'}
+2022-02-26 15:19:53,856 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5']}), {}.
 Вызов из модуля eading.py.
 Вызов из функции process_client_message.
-2022-02-23 22:23:06,505 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62351)>,), {}.
+2022-02-26 15:19:54,367 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:23:06,505 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645636986.2542503, 'user': {'account_name': 'test1'}}
-2022-02-23 22:23:06,630 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62351)>, {'response': 200}), {}.
+2022-02-26 15:19:54,367 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1645870793.9701097, 'user': 'test5'}
+2022-02-26 15:19:54,371 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>, {'response': 202, 'data_list': []}), {}.
 Вызов из модуля eading.py.
 Вызов из функции process_client_message.
-2022-02-23 22:24:48,125 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
-Вызов из модуля server.py.
-Вызов из функции main.
-2022-02-23 22:24:48,274 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-02-23 22:24:48,459 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62360)
-2022-02-23 22:24:48,464 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62361)
-2022-02-23 22:24:48,466 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62360)>,), {}.
+2022-02-26 15:20:10,797 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54705)
+2022-02-26 15:20:11,306 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54705)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:24:48,466 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645637088.4599972, 'user': {'account_name': 'test1'}}
-2022-02-23 22:24:48,601 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62360)>, {'response': 200}), {}.
+2022-02-26 15:20:11,306 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645870810.7970936, 'user': {'account_name': 'test10'}}
+2022-02-26 15:20:11,564 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54705)>, {'response': 200}), {}.
 Вызов из модуля eading.py.
 Вызов из функции process_client_message.
-2022-02-23 22:24:48,601 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62362)
-2022-02-23 22:24:48,603 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62361)>,), {}.
+2022-02-26 15:20:12,583 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54705)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:24:48,603 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645637088.4649956, 'user': {'account_name': 'test2'}}
-2022-02-23 22:24:48,737 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62361)>, {'response': 200}), {}.
+2022-02-26 15:20:12,583 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645870812.137126, 'account_name': 'test10'}
+2022-02-26 15:20:12,585 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54705)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5', 'test10']}), {}.
 Вызов из модуля eading.py.
 Вызов из функции process_client_message.
-2022-02-23 22:24:48,739 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62362)>,), {}.
+2022-02-26 15:20:13,099 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54705)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:24:48,739 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645637088.4699967, 'user': {'account_name': 'test3'}}
-2022-02-23 22:24:48,875 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62362)>, {'response': 200}), {}.
+2022-02-26 15:20:13,099 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1645870812.7048612, 'user': 'test10'}
+2022-02-26 15:20:13,102 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54705)>, {'response': 202, 'data_list': []}), {}.
 Вызов из модуля eading.py.
 Вызов из функции process_client_message.
-2022-02-23 22:25:17,841 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62361)>,), {}.
+2022-02-26 15:20:37,512 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54705)>,), {}.
 Вызов из модуля eading.py.
 Вызов из функции run.
-2022-02-23 22:25:17,841 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'test2', 'to': 'test3', 'time': 1645637117.3841958, 'mess_text': '123'}
-2022-02-23 22:25:17,842 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62362)>, {'action': 'message', 'sender': 'test2', 'to': 'test3', 'time': 1645637117.3841958, 'mess_text': '123'}), {}.
+2022-02-26 15:20:37,512 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'test10', 'to': 'test5', 'time': 1645870836.551652, 'mess_text': 'privet'}
+2022-02-26 15:20:37,634 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>, {'action': 'message', 'sender': 'test10', 'to': 'test5', 'time': 1645870836.551652, 'mess_text': 'privet'}), {}.
 Вызов из модуля eading.py.
 Вызов из функции process_message.
-2022-02-23 22:25:17,843 INFO server.py Отправлено сообщение пользователю test3 от пользователя test2.
+2022-02-26 15:20:37,634 INFO server.py Отправлено сообщение пользователю test5 от пользователя test10.
+2022-02-26 15:20:55,428 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:20:55,428 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'test5', 'to': 'test5', 'time': 1645870854.9625778, 'mess_text': 'privet'}
+2022-02-26 15:20:55,549 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>, {'action': 'message', 'sender': 'test5', 'to': 'test5', 'time': 1645870854.9625778, 'mess_text': 'privet'}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_message.
+2022-02-26 15:20:55,549 INFO server.py Отправлено сообщение пользователю test5 от пользователя test5.
+2022-02-26 15:21:21,987 INFO server.py Клиент ('127.0.0.1', 54705) отключился от сервера.
+2022-02-26 15:23:32,964 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54722)
+2022-02-26 15:23:33,479 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54722)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:23:33,479 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871012.9759908, 'user': {'account_name': 'test10'}}
+2022-02-26 15:23:33,627 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54722)>, {'response': 200}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:23:34,133 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54722)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:23:34,133 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645871013.8055036, 'account_name': 'test10'}
+2022-02-26 15:23:34,135 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54722)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5', 'test10']}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:23:34,651 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54722)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:23:34,651 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1645871014.2582507, 'user': 'test10'}
+2022-02-26 15:23:34,654 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54722)>, {'response': 202, 'data_list': []}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:25:11,845 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54722)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:25:11,845 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'test10', 'to': 'test5', 'time': 1645871110.8629708, 'mess_text': 'qwerty'}
+2022-02-26 15:25:11,992 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54703)>, {'action': 'message', 'sender': 'test10', 'to': 'test5', 'time': 1645871110.8629708, 'mess_text': 'qwerty'}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_message.
+2022-02-26 15:25:11,993 INFO server.py Отправлено сообщение пользователю test5 от пользователя test10.
+2022-02-26 15:30:31,225 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
+Вызов из модуля server.py.
+Вызов из функции main.
+2022-02-26 15:30:31,375 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 15:30:31,812 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54790)
+2022-02-26 15:30:31,824 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54791)
+2022-02-26 15:30:31,826 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54790)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:30:31,826 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871431.8117347, 'user': {'account_name': 'test3'}}
+2022-02-26 15:30:31,964 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54790)>, {'response': 200}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:30:31,964 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54792)
+2022-02-26 15:30:31,965 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54791)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:30:31,965 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871431.8247337, 'user': {'account_name': 'test1'}}
+2022-02-26 15:30:32,156 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54791)>, {'response': 200}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:30:32,157 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54792)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:30:32,157 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871431.8357322, 'user': {'account_name': 'test2'}}
+2022-02-26 15:30:32,396 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54792)>, {'response': 200}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:30:32,911 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54790)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:30:32,911 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645871432.1735644, 'account_name': 'test3'}
+2022-02-26 15:30:32,913 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54790)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5', 'test10']}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:30:32,915 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54791)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:30:32,915 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645871432.3842447, 'account_name': 'test1'}
+2022-02-26 15:30:32,917 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54791)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5', 'test10']}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:30:32,918 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54792)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:30:32,918 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645871432.542434, 'account_name': 'test2'}
+2022-02-26 15:30:32,920 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54792)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5', 'test10']}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:30:33,436 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54790)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:30:33,436 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1645871433.2252944, 'user': 'test3'}
+2022-02-26 15:30:33,440 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54790)>, {'response': 202, 'data_list': []}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:30:33,442 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54791)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:30:33,442 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1645871433.2370086, 'user': 'test1'}
+2022-02-26 15:30:33,445 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54791)>, {'response': 202, 'data_list': []}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:30:33,446 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54792)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:30:33,446 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1645871433.278899, 'user': 'test2'}
+2022-02-26 15:30:33,449 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54792)>, {'response': 202, 'data_list': []}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:31:02,463 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54792)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:31:02,463 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'test2', 'to': 'test1', 'time': 1645871462.431257, 'mess_text': 'qwerty'}
+2022-02-26 15:31:02,466 INFO server.py Клиент ('127.0.0.1', 54792) отключился от сервера.
+2022-02-26 15:31:02,572 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54791)>, {'action': 'message', 'sender': 'test2', 'to': 'test1', 'time': 1645871462.431257, 'mess_text': 'qwerty'}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_message.
+2022-02-26 15:31:02,572 INFO server.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-02-26 15:31:18,393 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54790)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:31:18,393 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'test3', 'to': 'test2', 'time': 1645871478.0993285, 'mess_text': 'poka'}
+2022-02-26 15:31:18,395 INFO server.py Клиент ('127.0.0.1', 54790) отключился от сервера.
+2022-02-26 15:36:29,555 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
+Вызов из модуля server.py.
+Вызов из функции main.
+2022-02-26 15:36:29,693 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 15:37:44,990 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
+Вызов из модуля server.py.
+Вызов из функции main.
+2022-02-26 15:37:45,109 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 15:38:08,181 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
+Вызов из модуля server.py.
+Вызов из функции main.
+2022-02-26 15:38:08,296 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 15:38:08,731 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54840)
+2022-02-26 15:38:08,746 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54840)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:08,746 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871888.6607697, 'user': {'account_name': '1111'}}
+2022-02-26 15:38:08,856 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54840)>, {'response': 200}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:09,174 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54841)
+2022-02-26 15:38:09,636 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54842)
+2022-02-26 15:38:09,638 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54840)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:09,638 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645871889.3816183, 'account_name': '1111'}
+2022-02-26 15:38:09,641 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54840)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5', 'test10']}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:09,642 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54841)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:09,642 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871889.1747684, 'user': {'account_name': 'test5'}}
+2022-02-26 15:38:18,440 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
+Вызов из модуля server.py.
+Вызов из функции main.
+2022-02-26 15:38:18,570 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 15:38:18,963 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54844)
+2022-02-26 15:38:18,980 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54844)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:18,980 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871898.9174347, 'user': {'account_name': '1111'}}
+2022-02-26 15:38:19,108 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54844)>, {'response': 200}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:19,433 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54845)
+2022-02-26 15:38:19,434 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54844)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:19,434 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645871899.264434, 'account_name': '1111'}
+2022-02-26 15:38:19,437 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54844)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5', 'test10']}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:19,915 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54846)
+2022-02-26 15:38:19,916 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54844)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:19,916 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1645871899.5594978, 'user': '1111'}
+2022-02-26 15:38:19,921 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54844)>, {'response': 202, 'data_list': []}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:19,922 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54845)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:19,922 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871899.456433, 'user': {'account_name': 'test5'}}
+2022-02-26 15:38:55,821 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
+Вызов из модуля server.py.
+Вызов из функции main.
+2022-02-26 15:38:55,967 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 15:38:56,823 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54848)
+2022-02-26 15:38:57,303 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54849)
+2022-02-26 15:38:57,305 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54848)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:57,305 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871936.8234913, 'user': {'account_name': 'test5'}}
+2022-02-26 15:38:57,431 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54848)>, {'response': 200}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:57,939 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54848)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:57,939 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645871937.5776901, 'account_name': 'test5'}
+2022-02-26 15:38:57,942 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54848)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5', 'test10']}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:57,943 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54849)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:57,943 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645871937.3285248, 'user': {'account_name': 'test10'}}
+2022-02-26 15:38:58,157 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54849)>, {'response': 200}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:58,672 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54848)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:58,672 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1645871938.152252, 'user': 'test5'}
+2022-02-26 15:38:58,677 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54848)>, {'response': 202, 'data_list': []}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:58,678 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54849)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:58,678 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1645871938.3250086, 'account_name': 'test10'}
+2022-02-26 15:38:58,680 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54849)>, {'response': 202, 'data_list': ['test2', 'test1', 'test3', 'client_1', 'client_2', '1111', 'McG2', 'test5', 'test10']}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:38:59,187 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54849)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:38:59,187 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1645871938.8198707, 'user': 'test10'}
+2022-02-26 15:38:59,190 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54849)>, {'response': 202, 'data_list': []}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_client_message.
+2022-02-26 15:39:27,169 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54848)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:39:27,169 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'test5', 'to': 'test10', 'time': 1645871965.967214, 'mess_text': 'qwerty'}
+2022-02-26 15:39:27,286 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54849)>, {'action': 'message', 'sender': 'test5', 'to': 'test10', 'time': 1645871965.967214, 'mess_text': 'qwerty'}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_message.
+2022-02-26 15:39:27,286 INFO server.py Отправлено сообщение пользователю test10 от пользователя test5.
+2022-02-26 15:39:43,514 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54848)>,), {}.
+Вызов из модуля eading.py.
+Вызов из функции run.
+2022-02-26 15:39:43,514 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'test5', 'to': 'test10', 'time': 1645871982.8025582, 'mess_text': 'message'}
+2022-02-26 15:39:43,611 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54849)>, {'action': 'message', 'sender': 'test5', 'to': 'test10', 'time': 1645871982.8025582, 'mess_text': 'message'}), {}.
+Вызов из модуля eading.py.
+Вызов из функции process_message.
+2022-02-26 15:39:43,611 INFO server.py Отправлено сообщение пользователю test10 от пользователя test5.
+2022-02-26 15:39:54,797 INFO server.py Клиент ('127.0.0.1', 54848) отключился от сервера.
+2022-02-26 15:39:55,937 INFO server.py Клиент ('127.0.0.1', 54849) отключился от сервера.
+2022-02-26 16:54:15,559 DEBUG decorator.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}.
+Вызов из модуля server.py.
+Вызов из функции main.
+2022-02-26 16:54:15,704 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
