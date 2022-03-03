@@ -3,7 +3,7 @@ import dis
 
 # Метакласс для проверки соответствия сервера:
 class ServerMaker(type):
-    def __init__(self, clsname, bases, clsdict):
+    def __init__(cls, clsname, bases, clsdict):
         # Список методов, которые используются в функциях класса:
         methods = []
         # Атрибуты, используемые в функциях классов
@@ -33,7 +33,7 @@ class ServerMaker(type):
 
 # Метакласс для проверки корректности клиентов:
 class ClientMaker(type):
-    def __init__(self, clsname, bases, clsdict):
+    def __init__(cls, clsname, bases, clsdict):
         # Список методов, которые используются в функциях класса:
         methods = []
         for func in clsdict:

@@ -1,7 +1,5 @@
 import sys
 import logging
-import logs.server_log_config
-import logs.client_log_config
 import traceback
 import inspect
 
@@ -17,7 +15,7 @@ def log(func_to_log):
         """Обертка"""
         ret = func_to_log(*args, **kwargs)
         logger.debug(f'Была вызвана функция {func_to_log.__name__} c параметрами {args}, {kwargs}.\n'
-                     f'Вызов из модуля {traceback.format_stack()[0].strip().split()[1][-11:-2]}.\n'
+                     f'Вызов из модуля {traceback.format_stack()[0].strip().split()[1]}.\n'
                      f'Вызов из функции {inspect.stack()[1][3]}.')
         return ret
     return log_saver

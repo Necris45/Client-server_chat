@@ -1,6 +1,10 @@
 import logging
+import sys
 
-logs = logging.getLogger('server')
+if sys.argv[0].find('client') == -1:
+    logs = logging.getLogger('server')
+else:
+    logs = logging.getLogger('client')
 
 
 # Дескриптор для описания порта:
