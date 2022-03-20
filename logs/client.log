@@ -5726,3 +5726,320 @@ socket.timeout: timed out
 Вызов из функции transport_shutdown.
 2022-03-14 00:28:29,865 DEBUG transport.py Транспорт завершает работу.
 2022-03-14 00:28:30,353 DEBUG transport.py Потеряно соединение с сервером.
+2022-03-20 22:57:33,097 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции <module>.
+2022-03-20 22:57:33,111 DEBUG client.py Args loaded
+2022-03-20 22:57:33,476 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test1
+2022-03-20 22:57:33,559 DEBUG client.py Keys sucsessfully loaded.
+2022-03-20 22:57:33,713 INFO transport.py Попытка подключения №1
+2022-03-20 22:57:33,713 DEBUG transport.py Connection established.
+2022-03-20 22:57:33,713 DEBUG transport.py Starting auth dialog.
+2022-03-20 22:57:33,724 DEBUG transport.py Passwd hash ready: b'49b70501d4d72ff5522a79cf779df86656a057282ac9ab564efb80fcba4fbc484bedcf52b3fb233d9b7b91337becc542ec3256a0269deddfedbce7275f44a781'
+2022-03-20 22:57:33,725 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1647799053.7250857, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJYKvEhYYV0fe5Q8eQB1\nn+hdUc8LfAAQ9a+YzbvpBojsR7cHAmKf5iAXzdIiPpxBe0jHxwtGyLDP4KMwYO0I\n4XKU9NMCt4HjD+ZYfAOIBJ8FRVUqM12Splc9Sj8Wp6bVG/5JhDMNpC78CW3qfBG2\nZfV7Nm8jRC5CH6Rcoo4EU8xZJaa4iMt0PPjCwmSDC+0VAGz7M9I/HasLQm9Ca3iV\nah/qag1IrCMfC16gQBXro7RCafBkOQJpI4v6hOIZgB/mHEJjmrsNHAkc312mSvKL\noeaHS7KtM+iDZOrlcPtBF7lqSMwflqghXDKxHFYgyL9VvfX5p/QRD7rxmbB7I3+3\nGQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-20 22:57:33,726 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55343), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1647799053.7250857, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJYKvEhYYV0fe5Q8eQB1\nn+hdUc8LfAAQ9a+YzbvpBojsR7cHAmKf5iAXzdIiPpxBe0jHxwtGyLDP4KMwYO0I\n4XKU9NMCt4HjD+ZYfAOIBJ8FRVUqM12Splc9Sj8Wp6bVG/5JhDMNpC78CW3qfBG2\nZfV7Nm8jRC5CH6Rcoo4EU8xZJaa4iMt0PPjCwmSDC+0VAGz7M9I/HasLQm9Ca3iV\nah/qag1IrCMfC16gQBXro7RCafBkOQJpI4v6hOIZgB/mHEJjmrsNHAkc312mSvKL\noeaHS7KtM+iDZOrlcPtBF7lqSMwflqghXDKxHFYgyL9VvfX5p/QRD7rxmbB7I3+3\nGQIDAQAB\n-----END PUBLIC KEY-----'}}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:57:34,238 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55343), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:57:34,238 DEBUG transport.py Server response = {'response': 511, 'bin': 'aa0aa3a5b71c7d3d5b95c3ff9b966771ce301d1ae5a8ee9097eb5dcf679dc5872ee03837892fb588c8343e65146fd9323b2a871a178777f525a82c6b0fdab978'}.
+2022-03-20 22:57:34,239 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55343), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'iSYPB0SOVdX6e20TAkUe9g==\n'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:57:34,241 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55343), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:57:34,241 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-20 22:57:34,241 DEBUG transport.py Запрос списка известных пользователей test1
+2022-03-20 22:57:34,242 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55343), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1647799054.2419114, 'account_name': 'test1'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 22:57:34,853 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55343), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 22:57:34,995 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2022-03-20 22:57:34,996 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1647799054.9960623, 'user': 'test1'}
+2022-03-20 22:57:34,997 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55343), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1647799054.9960623, 'user': 'test1'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 22:57:35,367 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55343), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 22:57:35,367 DEBUG transport.py Получен ответ {'response': 202, 'data_list': ['test2']}
+2022-03-20 22:57:35,492 DEBUG client.py Transport ready.
+2022-03-20 22:57:35,492 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2022-03-20 22:57:37,855 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции <module>.
+2022-03-20 22:57:37,855 DEBUG client.py Args loaded
+2022-03-20 22:57:38,220 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test2
+2022-03-20 22:57:38,290 DEBUG client.py Keys sucsessfully loaded.
+2022-03-20 22:57:38,449 INFO transport.py Попытка подключения №1
+2022-03-20 22:57:38,449 DEBUG transport.py Connection established.
+2022-03-20 22:57:38,449 DEBUG transport.py Starting auth dialog.
+2022-03-20 22:57:38,459 DEBUG transport.py Passwd hash ready: b'6c95daf460f03d00239959faac8387d157dafbe382cd684426a295cd37fbcb0e4d874cae7b07017717c8acaff862f6241d4eaeea2366f6a7b5076a8c72035cd6'
+2022-03-20 22:57:38,460 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1647799058.460658, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA96dVf6GERWiEbawc/ssK\non7bIsbtM5Oh6/U9GG3aFX6oJhx2qNWbcmvDcR5dF+Me0vRCM8/7aKNegQc2B646\n70x6hK5wJIyleVy9XElMnGMRBPyx3/ymFURqyGdlTdcrpUxeNqq16a1VAyDqiOmW\nowg8Tl8FSRz3qn8J0uZDrgiJIF+SbVJw0eHySpopKMhYLI5+pf8ucXJ+LMSHCXwp\ngUsiEFaVFfp4AanSTb8F8ILKvKnL8hoAqyXnQiipA3szk5t3ZX1fvlFRFmU6jFZ5\nstOYxtQDtivga3mhVFp3aCB9dxoZw8I5b3RXwd12wQj1KdqRjX4sb1hiLWr7jkz4\niQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-20 22:57:38,461 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55344), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1647799058.460658, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA96dVf6GERWiEbawc/ssK\non7bIsbtM5Oh6/U9GG3aFX6oJhx2qNWbcmvDcR5dF+Me0vRCM8/7aKNegQc2B646\n70x6hK5wJIyleVy9XElMnGMRBPyx3/ymFURqyGdlTdcrpUxeNqq16a1VAyDqiOmW\nowg8Tl8FSRz3qn8J0uZDrgiJIF+SbVJw0eHySpopKMhYLI5+pf8ucXJ+LMSHCXwp\ngUsiEFaVFfp4AanSTb8F8ILKvKnL8hoAqyXnQiipA3szk5t3ZX1fvlFRFmU6jFZ5\nstOYxtQDtivga3mhVFp3aCB9dxoZw8I5b3RXwd12wQj1KdqRjX4sb1hiLWr7jkz4\niQIDAQAB\n-----END PUBLIC KEY-----'}}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:57:38,967 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55344), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:57:38,967 DEBUG transport.py Server response = {'response': 511, 'bin': '4454ead9afdd54e84cc13eb13a48ac09b027b2219de778e58a3e15fe51847e59506cb8e3d733c59613348d12af0fb9c56c39b21b704f8f582d918c40bedb0170'}.
+2022-03-20 22:57:38,968 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55344), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'AINN2QMY6G377TAJu4OeUA==\n'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:57:38,970 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55344), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:57:38,970 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-20 22:57:38,970 DEBUG transport.py Запрос списка известных пользователей test2
+2022-03-20 22:57:38,971 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55344), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1647799058.9706616, 'account_name': 'test2'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 22:57:40,242 CRITICAL transport.py Потеряно соединение с сервером.
+2022-03-20 22:57:41,067 CRITICAL transport.py Потеряно соединение с сервером.
+2022-03-20 22:57:43,050 DEBUG transport.py Транспорт завершает работу.
+2022-03-20 22:58:44,495 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции <module>.
+2022-03-20 22:58:44,495 DEBUG client.py Args loaded
+2022-03-20 22:58:44,852 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test1
+2022-03-20 22:58:44,920 DEBUG client.py Keys sucsessfully loaded.
+2022-03-20 22:58:45,076 INFO transport.py Попытка подключения №1
+2022-03-20 22:58:45,076 DEBUG transport.py Connection established.
+2022-03-20 22:58:45,076 DEBUG transport.py Starting auth dialog.
+2022-03-20 22:58:45,086 DEBUG transport.py Passwd hash ready: b'49b70501d4d72ff5522a79cf779df86656a057282ac9ab564efb80fcba4fbc484bedcf52b3fb233d9b7b91337becc542ec3256a0269deddfedbce7275f44a781'
+2022-03-20 22:58:45,087 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1647799125.0876515, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJYKvEhYYV0fe5Q8eQB1\nn+hdUc8LfAAQ9a+YzbvpBojsR7cHAmKf5iAXzdIiPpxBe0jHxwtGyLDP4KMwYO0I\n4XKU9NMCt4HjD+ZYfAOIBJ8FRVUqM12Splc9Sj8Wp6bVG/5JhDMNpC78CW3qfBG2\nZfV7Nm8jRC5CH6Rcoo4EU8xZJaa4iMt0PPjCwmSDC+0VAGz7M9I/HasLQm9Ca3iV\nah/qag1IrCMfC16gQBXro7RCafBkOQJpI4v6hOIZgB/mHEJjmrsNHAkc312mSvKL\noeaHS7KtM+iDZOrlcPtBF7lqSMwflqghXDKxHFYgyL9VvfX5p/QRD7rxmbB7I3+3\nGQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-20 22:58:45,088 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55363), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1647799125.0876515, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJYKvEhYYV0fe5Q8eQB1\nn+hdUc8LfAAQ9a+YzbvpBojsR7cHAmKf5iAXzdIiPpxBe0jHxwtGyLDP4KMwYO0I\n4XKU9NMCt4HjD+ZYfAOIBJ8FRVUqM12Splc9Sj8Wp6bVG/5JhDMNpC78CW3qfBG2\nZfV7Nm8jRC5CH6Rcoo4EU8xZJaa4iMt0PPjCwmSDC+0VAGz7M9I/HasLQm9Ca3iV\nah/qag1IrCMfC16gQBXro7RCafBkOQJpI4v6hOIZgB/mHEJjmrsNHAkc312mSvKL\noeaHS7KtM+iDZOrlcPtBF7lqSMwflqghXDKxHFYgyL9VvfX5p/QRD7rxmbB7I3+3\nGQIDAQAB\n-----END PUBLIC KEY-----'}}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:58:45,594 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55363), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:58:45,594 DEBUG transport.py Server response = {'response': 511, 'bin': 'af791ff0fe62a53b1008cb54955da1da9332d7257f30eaac17c28873d7a6f65e80c05e5360238d7ff9816ad189eb62ee4f32dd8d205187ef304f9a2c2e567317'}.
+2022-03-20 22:58:45,595 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55363), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'oGQVaD5GBNfzhVlPB1bGBw==\n'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:58:45,597 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55363), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:58:45,597 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-20 22:58:45,597 DEBUG transport.py Запрос списка известных пользователей test1
+2022-03-20 22:58:45,598 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55363), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1647799125.5971029, 'account_name': 'test1'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 22:58:46,225 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55363), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 22:58:46,340 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2022-03-20 22:58:46,340 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1647799126.3405395, 'user': 'test1'}
+2022-03-20 22:58:46,341 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55363), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1647799126.3405395, 'user': 'test1'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 22:58:46,730 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55363), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 22:58:46,730 DEBUG transport.py Получен ответ {'response': 202, 'data_list': ['test2']}
+2022-03-20 22:58:46,844 DEBUG client.py Transport ready.
+2022-03-20 22:58:46,845 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2022-03-20 22:58:49,498 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции <module>.
+2022-03-20 22:58:49,499 DEBUG client.py Args loaded
+2022-03-20 22:58:49,865 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test2
+2022-03-20 22:58:49,934 DEBUG client.py Keys sucsessfully loaded.
+2022-03-20 22:58:50,086 INFO transport.py Попытка подключения №1
+2022-03-20 22:58:50,087 DEBUG transport.py Connection established.
+2022-03-20 22:58:50,087 DEBUG transport.py Starting auth dialog.
+2022-03-20 22:58:50,097 DEBUG transport.py Passwd hash ready: b'6c95daf460f03d00239959faac8387d157dafbe382cd684426a295cd37fbcb0e4d874cae7b07017717c8acaff862f6241d4eaeea2366f6a7b5076a8c72035cd6'
+2022-03-20 22:58:50,097 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1647799130.0978453, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA96dVf6GERWiEbawc/ssK\non7bIsbtM5Oh6/U9GG3aFX6oJhx2qNWbcmvDcR5dF+Me0vRCM8/7aKNegQc2B646\n70x6hK5wJIyleVy9XElMnGMRBPyx3/ymFURqyGdlTdcrpUxeNqq16a1VAyDqiOmW\nowg8Tl8FSRz3qn8J0uZDrgiJIF+SbVJw0eHySpopKMhYLI5+pf8ucXJ+LMSHCXwp\ngUsiEFaVFfp4AanSTb8F8ILKvKnL8hoAqyXnQiipA3szk5t3ZX1fvlFRFmU6jFZ5\nstOYxtQDtivga3mhVFp3aCB9dxoZw8I5b3RXwd12wQj1KdqRjX4sb1hiLWr7jkz4\niQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-20 22:58:50,098 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55364), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1647799130.0978453, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA96dVf6GERWiEbawc/ssK\non7bIsbtM5Oh6/U9GG3aFX6oJhx2qNWbcmvDcR5dF+Me0vRCM8/7aKNegQc2B646\n70x6hK5wJIyleVy9XElMnGMRBPyx3/ymFURqyGdlTdcrpUxeNqq16a1VAyDqiOmW\nowg8Tl8FSRz3qn8J0uZDrgiJIF+SbVJw0eHySpopKMhYLI5+pf8ucXJ+LMSHCXwp\ngUsiEFaVFfp4AanSTb8F8ILKvKnL8hoAqyXnQiipA3szk5t3ZX1fvlFRFmU6jFZ5\nstOYxtQDtivga3mhVFp3aCB9dxoZw8I5b3RXwd12wQj1KdqRjX4sb1hiLWr7jkz4\niQIDAQAB\n-----END PUBLIC KEY-----'}}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:58:50,601 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55364), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:58:50,601 DEBUG transport.py Server response = {'response': 511, 'bin': 'a1983bf819c8846830aab3bd39f269d19acb6180718468121aee23d53fb6e780a577717c98e7ecbfdb70f2c26c0ea20fdb5905473b998e096062cb5b5f8a008e'}.
+2022-03-20 22:58:50,602 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55364), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': '65HgObgbcg3AMYBsHWiFvg==\n'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:58:50,604 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55364), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 22:58:50,604 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-20 22:58:50,604 DEBUG transport.py Запрос списка известных пользователей test2
+2022-03-20 22:58:50,605 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55364), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1647799130.6041033, 'account_name': 'test2'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 22:58:51,253 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55364), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 22:58:51,382 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2022-03-20 22:58:51,382 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1647799131.3828752, 'user': 'test2'}
+2022-03-20 22:58:51,383 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55364), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1647799131.3828752, 'user': 'test2'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 22:58:51,769 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55364), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 22:58:51,769 DEBUG transport.py Получен ответ {'response': 202, 'data_list': ['test1']}
+2022-03-20 22:58:51,886 DEBUG client.py Transport ready.
+2022-03-20 22:58:51,886 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2022-03-20 22:58:56,618 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55364), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1647799136.6174634, 'account_name': 'test2'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции transport_shutdown.
+2022-03-20 22:58:56,618 DEBUG transport.py Транспорт завершает работу.
+2022-03-20 22:58:57,461 DEBUG transport.py Потеряно соединение с сервером.
+2022-03-20 22:58:57,509 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55363), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1647799137.2428079, 'account_name': 'test1'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции transport_shutdown.
+2022-03-20 22:58:57,509 DEBUG transport.py Транспорт завершает работу.
+2022-03-20 23:07:47,140 CRITICAL client_log_config.py Критическая ошибка
+2022-03-20 23:07:47,140 ERROR client_log_config.py Ошибка
+2022-03-20 23:07:47,140 DEBUG client_log_config.py Отладочная информация
+2022-03-20 23:07:47,140 INFO client_log_config.py Информационное сообщение
+2022-03-20 23:17:48,121 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции <module>.
+2022-03-20 23:17:48,121 DEBUG client.py Args loaded
+2022-03-20 23:17:48,481 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test1
+2022-03-20 23:17:48,552 DEBUG client.py Keys sucsessfully loaded.
+2022-03-20 23:17:48,688 INFO transport.py Попытка подключения №1
+2022-03-20 23:17:48,688 DEBUG transport.py Connection established.
+2022-03-20 23:17:48,688 DEBUG transport.py Starting auth dialog.
+2022-03-20 23:17:48,698 DEBUG transport.py Passwd hash ready: b'49b70501d4d72ff5522a79cf779df86656a057282ac9ab564efb80fcba4fbc484bedcf52b3fb233d9b7b91337becc542ec3256a0269deddfedbce7275f44a781'
+2022-03-20 23:17:48,699 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1647800268.6994746, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJYKvEhYYV0fe5Q8eQB1\nn+hdUc8LfAAQ9a+YzbvpBojsR7cHAmKf5iAXzdIiPpxBe0jHxwtGyLDP4KMwYO0I\n4XKU9NMCt4HjD+ZYfAOIBJ8FRVUqM12Splc9Sj8Wp6bVG/5JhDMNpC78CW3qfBG2\nZfV7Nm8jRC5CH6Rcoo4EU8xZJaa4iMt0PPjCwmSDC+0VAGz7M9I/HasLQm9Ca3iV\nah/qag1IrCMfC16gQBXro7RCafBkOQJpI4v6hOIZgB/mHEJjmrsNHAkc312mSvKL\noeaHS7KtM+iDZOrlcPtBF7lqSMwflqghXDKxHFYgyL9VvfX5p/QRD7rxmbB7I3+3\nGQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-20 23:17:48,700 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1647800268.6994746, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJYKvEhYYV0fe5Q8eQB1\nn+hdUc8LfAAQ9a+YzbvpBojsR7cHAmKf5iAXzdIiPpxBe0jHxwtGyLDP4KMwYO0I\n4XKU9NMCt4HjD+ZYfAOIBJ8FRVUqM12Splc9Sj8Wp6bVG/5JhDMNpC78CW3qfBG2\nZfV7Nm8jRC5CH6Rcoo4EU8xZJaa4iMt0PPjCwmSDC+0VAGz7M9I/HasLQm9Ca3iV\nah/qag1IrCMfC16gQBXro7RCafBkOQJpI4v6hOIZgB/mHEJjmrsNHAkc312mSvKL\noeaHS7KtM+iDZOrlcPtBF7lqSMwflqghXDKxHFYgyL9VvfX5p/QRD7rxmbB7I3+3\nGQIDAQAB\n-----END PUBLIC KEY-----'}}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 23:17:49,209 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 23:17:49,209 DEBUG transport.py Server response = {'response': 511, 'bin': 'ba5fa0cb27a8b354c2639b1430fc09b59552e59ac842a07e409f3a3b06adae92f334721212099e08d632ef5cd626a991257a94de0a6f358bd5354248d150b158'}.
+2022-03-20 23:17:49,211 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'eQRBGCzrENUB4kr0pxkmPw==\n'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 23:17:49,212 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 23:17:49,213 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-20 23:17:49,213 DEBUG transport.py Запрос списка известных пользователей test1
+2022-03-20 23:17:49,213 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1647800269.213436, 'account_name': 'test1'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 23:17:49,859 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 23:17:49,973 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2022-03-20 23:17:49,973 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1647800269.973745, 'user': 'test1'}
+2022-03-20 23:17:49,974 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1647800269.973745, 'user': 'test1'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 23:17:50,373 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 23:17:50,374 DEBUG transport.py Получен ответ {'response': 202, 'data_list': ['test2']}
+2022-03-20 23:17:50,477 DEBUG client.py Transport ready.
+2022-03-20 23:17:50,478 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2022-03-20 23:17:53,131 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции <module>.
+2022-03-20 23:17:53,131 DEBUG client.py Args loaded
+2022-03-20 23:17:53,497 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test2
+2022-03-20 23:17:53,569 DEBUG client.py Keys sucsessfully loaded.
+2022-03-20 23:17:53,709 INFO transport.py Попытка подключения №1
+2022-03-20 23:17:53,710 DEBUG transport.py Connection established.
+2022-03-20 23:17:53,710 DEBUG transport.py Starting auth dialog.
+2022-03-20 23:17:53,719 DEBUG transport.py Passwd hash ready: b'6c95daf460f03d00239959faac8387d157dafbe382cd684426a295cd37fbcb0e4d874cae7b07017717c8acaff862f6241d4eaeea2366f6a7b5076a8c72035cd6'
+2022-03-20 23:17:53,720 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1647800273.7202272, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA96dVf6GERWiEbawc/ssK\non7bIsbtM5Oh6/U9GG3aFX6oJhx2qNWbcmvDcR5dF+Me0vRCM8/7aKNegQc2B646\n70x6hK5wJIyleVy9XElMnGMRBPyx3/ymFURqyGdlTdcrpUxeNqq16a1VAyDqiOmW\nowg8Tl8FSRz3qn8J0uZDrgiJIF+SbVJw0eHySpopKMhYLI5+pf8ucXJ+LMSHCXwp\ngUsiEFaVFfp4AanSTb8F8ILKvKnL8hoAqyXnQiipA3szk5t3ZX1fvlFRFmU6jFZ5\nstOYxtQDtivga3mhVFp3aCB9dxoZw8I5b3RXwd12wQj1KdqRjX4sb1hiLWr7jkz4\niQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-20 23:17:53,721 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1647800273.7202272, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA96dVf6GERWiEbawc/ssK\non7bIsbtM5Oh6/U9GG3aFX6oJhx2qNWbcmvDcR5dF+Me0vRCM8/7aKNegQc2B646\n70x6hK5wJIyleVy9XElMnGMRBPyx3/ymFURqyGdlTdcrpUxeNqq16a1VAyDqiOmW\nowg8Tl8FSRz3qn8J0uZDrgiJIF+SbVJw0eHySpopKMhYLI5+pf8ucXJ+LMSHCXwp\ngUsiEFaVFfp4AanSTb8F8ILKvKnL8hoAqyXnQiipA3szk5t3ZX1fvlFRFmU6jFZ5\nstOYxtQDtivga3mhVFp3aCB9dxoZw8I5b3RXwd12wQj1KdqRjX4sb1hiLWr7jkz4\niQIDAQAB\n-----END PUBLIC KEY-----'}}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 23:17:54,227 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 23:17:54,227 DEBUG transport.py Server response = {'response': 511, 'bin': '3526c35683abefa9c655d398097010ee1d62eaf914e2428b5b19d639c286e91d3d98761d8adfd8c0c76d12a16ec1807222411f48848937d094e1b061dec0638b'}.
+2022-03-20 23:17:54,228 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'uGILozxc6qUWAXvT2ESqtw==\n'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 23:17:54,230 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции connection_init.
+2022-03-20 23:17:54,230 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-20 23:17:54,231 DEBUG transport.py Запрос списка известных пользователей test2
+2022-03-20 23:17:54,231 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1647800274.2313, 'account_name': 'test2'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 23:17:54,862 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции user_list_update.
+2022-03-20 23:17:55,068 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2022-03-20 23:17:55,068 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1647800275.0683076, 'user': 'test2'}
+2022-03-20 23:17:55,069 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1647800275.0683076, 'user': 'test2'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 23:17:55,377 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции contacts_list_update.
+2022-03-20 23:17:55,377 DEBUG transport.py Получен ответ {'response': 202, 'data_list': ['test1']}
+2022-03-20 23:17:55,478 DEBUG client.py Transport ready.
+2022-03-20 23:17:55,478 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2022-03-20 23:18:07,418 DEBUG transport.py Запрос публичного ключа для test1
+2022-03-20 23:18:07,660 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>, {'action': 'pubkey_need', 'time': 1647800287.4189994, 'account_name': 'test1'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции key_request.
+2022-03-20 23:18:08,071 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции key_request.
+2022-03-20 23:18:08,072 DEBUG main_window.py Загружен открытый ключ для test1
+2022-03-20 23:18:09,446 DEBUG transport.py Запрос публичного ключа для test2
+2022-03-20 23:18:09,448 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>, {'action': 'pubkey_need', 'time': 1647800289.4478896, 'account_name': 'test2'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции key_request.
+2022-03-20 23:18:09,595 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции key_request.
+2022-03-20 23:18:09,595 DEBUG main_window.py Загружен открытый ключ для test2
+2022-03-20 23:18:15,311 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1647800295.3117778, 'mess_text': 'IM0ElxWH6usdIKwxJyxXURC7Ri0gwl6t1ENThFTygwG1ViD+q+2WjUT7GUqePfVWeDEMi3jV9D2ORFI6eOmt4JCXpCFVZA5PlFLQ1ulOrfOaWkFHx45cu+v/z75QwRImoRClVUyPT+KwbW5dMwyPa/lMm15d4uicQepYTnxJSQSBiMfJUMCliYCDI91CpLn5Ga7oQob6izYEthSVdBWIz8gODYKKIpY//Ug6sq+cs4c9KhZOjMwI00rIBgblEn5jkvzrlFwF/lRHzplKbiHheY+orr6wA7hBLoyA9+sYL5gIDX82oJ0PKJ/LIGCaCDA/wI/khe4/IR53+74jUNrxAQ=='}
+2022-03-20 23:18:15,312 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1647800295.3117778, 'mess_text': 'IM0ElxWH6usdIKwxJyxXURC7Ri0gwl6t1ENThFTygwG1ViD+q+2WjUT7GUqePfVWeDEMi3jV9D2ORFI6eOmt4JCXpCFVZA5PlFLQ1ulOrfOaWkFHx45cu+v/z75QwRImoRClVUyPT+KwbW5dMwyPa/lMm15d4uicQepYTnxJSQSBiMfJUMCliYCDI91CpLn5Ga7oQob6izYEthSVdBWIz8gODYKKIpY//Ug6sq+cs4c9KhZOjMwI00rIBgblEn5jkvzrlFwF/lRHzplKbiHheY+orr6wA7hBLoyA9+sYL5gIDX82oJ0PKJ/LIGCaCDA/wI/khe4/IR53+74jUNrxAQ=='}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции send_message.
+2022-03-20 23:18:15,836 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "C:\Users\Necris45\AppData\Local\Programs\Python\Python39\lib\threading.py",.
+Вызов из функции run.
+2022-03-20 23:18:15,836 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1647800295.3117778, 'mess_text': 'IM0ElxWH6usdIKwxJyxXURC7Ri0gwl6t1ENThFTygwG1ViD+q+2WjUT7GUqePfVWeDEMi3jV9D2ORFI6eOmt4JCXpCFVZA5PlFLQ1ulOrfOaWkFHx45cu+v/z75QwRImoRClVUyPT+KwbW5dMwyPa/lMm15d4uicQepYTnxJSQSBiMfJUMCliYCDI91CpLn5Ga7oQob6izYEthSVdBWIz8gODYKKIpY//Ug6sq+cs4c9KhZOjMwI00rIBgblEn5jkvzrlFwF/lRHzplKbiHheY+orr6wA7hBLoyA9+sYL5gIDX82oJ0PKJ/LIGCaCDA/wI/khe4/IR53+74jUNrxAQ=='}
+2022-03-20 23:18:15,839 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции send_message.
+2022-03-20 23:18:15,839 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1647800295.3117778, 'mess_text': 'IM0ElxWH6usdIKwxJyxXURC7Ri0gwl6t1ENThFTygwG1ViD+q+2WjUT7GUqePfVWeDEMi3jV9D2ORFI6eOmt4JCXpCFVZA5PlFLQ1ulOrfOaWkFHx45cu+v/z75QwRImoRClVUyPT+KwbW5dMwyPa/lMm15d4uicQepYTnxJSQSBiMfJUMCliYCDI91CpLn5Ga7oQob6izYEthSVdBWIz8gODYKKIpY//Ug6sq+cs4c9KhZOjMwI00rIBgblEn5jkvzrlFwF/lRHzplKbiHheY+orr6wA7hBLoyA9+sYL5gIDX82oJ0PKJ/LIGCaCDA/wI/khe4/IR53+74jUNrxAQ=='}
+2022-03-20 23:18:15,839 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-20 23:18:15,839 DEBUG transport.py Получено сообщение от пользователя test2:IM0ElxWH6usdIKwxJyxXURC7Ri0gwl6t1ENThFTygwG1ViD+q+2WjUT7GUqePfVWeDEMi3jV9D2ORFI6eOmt4JCXpCFVZA5PlFLQ1ulOrfOaWkFHx45cu+v/z75QwRImoRClVUyPT+KwbW5dMwyPa/lMm15d4uicQepYTnxJSQSBiMfJUMCliYCDI91CpLn5Ga7oQob6izYEthSVdBWIz8gODYKKIpY//Ug6sq+cs4c9KhZOjMwI00rIBgblEn5jkvzrlFwF/lRHzplKbiHheY+orr6wA7hBLoyA9+sYL5gIDX82oJ0PKJ/LIGCaCDA/wI/khe4/IR53+74jUNrxAQ==
+2022-03-20 23:18:15,840 INFO transport.py Отправлено сообщение для пользователя test1
+2022-03-20 23:18:15,991 DEBUG main_window.py Отправлено сообщение для test1: 123
+2022-03-20 23:18:19,287 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1647800299.287174, 'mess_text': 'gjFqxFPuPqiwVqDOzNYtwrNeEx6RUtBJh6O5w88ov496n0WF0aasq76NocEhWM9vC9DFPwN1/kIiDkcbhYqOcux3YkyECQ32uXGsCtSRHCDGowM6prY4E4nGZpclmUEMp5pS0jX5X/MvJTRoYfR0iuZDZ2/XEn1gXdFcRTGlAECMuUaGBszmklvI3D6FvHphQAlxy9MVa+b/apDQaBH/fLeEP5kp5t++W7eS9kVakUXThk2IGSobM3wu2bPOBvFYQBuzkAVXeBRicmPswtBLZFRUEU+GbF2FQD6/Dm77sU9zxV1r/KF+OeNduH9YHgf31yn6HGSRnUThteboaasIng=='}
+2022-03-20 23:18:19,288 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1647800299.287174, 'mess_text': 'gjFqxFPuPqiwVqDOzNYtwrNeEx6RUtBJh6O5w88ov496n0WF0aasq76NocEhWM9vC9DFPwN1/kIiDkcbhYqOcux3YkyECQ32uXGsCtSRHCDGowM6prY4E4nGZpclmUEMp5pS0jX5X/MvJTRoYfR0iuZDZ2/XEn1gXdFcRTGlAECMuUaGBszmklvI3D6FvHphQAlxy9MVa+b/apDQaBH/fLeEP5kp5t++W7eS9kVakUXThk2IGSobM3wu2bPOBvFYQBuzkAVXeBRicmPswtBLZFRUEU+GbF2FQD6/Dm77sU9zxV1r/KF+OeNduH9YHgf31yn6HGSRnUThteboaasIng=='}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции send_message.
+2022-03-20 23:18:19,519 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "C:\Users\Necris45\AppData\Local\Programs\Python\Python39\lib\threading.py",.
+Вызов из функции run.
+2022-03-20 23:18:19,519 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1647800299.287174, 'mess_text': 'gjFqxFPuPqiwVqDOzNYtwrNeEx6RUtBJh6O5w88ov496n0WF0aasq76NocEhWM9vC9DFPwN1/kIiDkcbhYqOcux3YkyECQ32uXGsCtSRHCDGowM6prY4E4nGZpclmUEMp5pS0jX5X/MvJTRoYfR0iuZDZ2/XEn1gXdFcRTGlAECMuUaGBszmklvI3D6FvHphQAlxy9MVa+b/apDQaBH/fLeEP5kp5t++W7eS9kVakUXThk2IGSobM3wu2bPOBvFYQBuzkAVXeBRicmPswtBLZFRUEU+GbF2FQD6/Dm77sU9zxV1r/KF+OeNduH9YHgf31yn6HGSRnUThteboaasIng=='}
+2022-03-20 23:18:19,520 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1647800299.287174, 'mess_text': 'gjFqxFPuPqiwVqDOzNYtwrNeEx6RUtBJh6O5w88ov496n0WF0aasq76NocEhWM9vC9DFPwN1/kIiDkcbhYqOcux3YkyECQ32uXGsCtSRHCDGowM6prY4E4nGZpclmUEMp5pS0jX5X/MvJTRoYfR0iuZDZ2/XEn1gXdFcRTGlAECMuUaGBszmklvI3D6FvHphQAlxy9MVa+b/apDQaBH/fLeEP5kp5t++W7eS9kVakUXThk2IGSobM3wu2bPOBvFYQBuzkAVXeBRicmPswtBLZFRUEU+GbF2FQD6/Dm77sU9zxV1r/KF+OeNduH9YHgf31yn6HGSRnUThteboaasIng=='}
+2022-03-20 23:18:19,520 DEBUG transport.py Получено сообщение от пользователя test1:gjFqxFPuPqiwVqDOzNYtwrNeEx6RUtBJh6O5w88ov496n0WF0aasq76NocEhWM9vC9DFPwN1/kIiDkcbhYqOcux3YkyECQ32uXGsCtSRHCDGowM6prY4E4nGZpclmUEMp5pS0jX5X/MvJTRoYfR0iuZDZ2/XEn1gXdFcRTGlAECMuUaGBszmklvI3D6FvHphQAlxy9MVa+b/apDQaBH/fLeEP5kp5t++W7eS9kVakUXThk2IGSobM3wu2bPOBvFYQBuzkAVXeBRicmPswtBLZFRUEU+GbF2FQD6/Dm77sU9zxV1r/KF+OeNduH9YHgf31yn6HGSRnUThteboaasIng==
+2022-03-20 23:18:19,521 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>,), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции send_message.
+2022-03-20 23:18:19,521 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-20 23:18:19,521 INFO transport.py Отправлено сообщение для пользователя test2
+2022-03-20 23:18:19,697 DEBUG main_window.py Отправлено сообщение для test2: 321
+2022-03-20 23:18:22,849 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55453), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1647800302.8489685, 'account_name': 'test1'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции transport_shutdown.
+2022-03-20 23:18:22,849 DEBUG transport.py Транспорт завершает работу.
+2022-03-20 23:18:23,233 DEBUG transport.py Потеряно соединение с сервером.
+2022-03-20 23:18:24,083 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55454), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1647800303.8549979, 'account_name': 'test2'}), {}.
+Вызов из модуля "E:\GB_Code\Client-server_app\python_chat\client.py",.
+Вызов из функции transport_shutdown.
+2022-03-20 23:18:24,083 DEBUG transport.py Транспорт завершает работу.

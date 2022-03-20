@@ -17,11 +17,11 @@ logs = logging.getLogger('server')
 
 
 class MessageProcessor(threading.Thread):
-    '''
+    """
     Основной класс сервера. Принимает содинения, словари - пакеты
     от клиентов, обрабатывает поступающие сообщения.
     Работает в качестве отдельного потока.
-    '''
+    """
     port = Port()
 
     def __init__(self, listen_address, listen_port, database):
@@ -52,7 +52,7 @@ class MessageProcessor(threading.Thread):
         super().__init__()
 
     def run(self):
-        '''Метод основной цикл потока.'''
+        """Метод основной цикл потока."""
         # Инициализация Сокета
         self.init_socket()
 
@@ -90,10 +90,10 @@ class MessageProcessor(threading.Thread):
                         self.remove_client(client_with_message)
 
     def remove_client(self, client):
-        '''
+        """
         Метод обработчик клиента с которым прервана связь.
         Ищет клиента и удаляет его из списков и базы:
-        '''
+        """
         logs.info(f'Клиент {client.getpeername()} отключился от сервера.')
         for name in self.names:
             if self.names[name] == client:
@@ -104,7 +104,7 @@ class MessageProcessor(threading.Thread):
         client.close()
 
     def init_socket(self):
-        '''Метод инициализатор сокета.'''
+        """Метод инициализатор сокета."""
         logs.info(f'Запущен сервер, порт для подключений: {self.port} , адрес с которого принимаются подключения: '
                   f'{self.addr}. Если адрес не указан, принимаются соединения с любых адресов.')
         # Готовим сокет
@@ -117,9 +117,9 @@ class MessageProcessor(threading.Thread):
         self.sock.listen(MAX_CONNECTIONS)
 
     def process_message(self, message):
-        '''
+        """
         Метод отправки сообщения клиенту.
-        '''
+        """
         if message[DESTINATION] in self.names and self.names[message[DESTINATION]] in self.listen_sockets:
             try:
                 send_message(self.names[message[DESTINATION]], message)
@@ -137,7 +137,7 @@ class MessageProcessor(threading.Thread):
 
     @login_required
     def process_client_message(self, message, client):
-        '''Метод отбработчик поступающих сообщений.'''
+        """Метод отбработчик поступающих сообщений."""
         logs.debug(f'Разбор сообщения от клиента : {message}')
         # Если это сообщение о присутствии, принимаем и отвечаем
         if ACTION in message and message[ACTION] == PRESENCE and TIME in message and USER in message:
@@ -237,7 +237,7 @@ class MessageProcessor(threading.Thread):
                 self.remove_client(client)
 
     def autorize_user(self, message, sock):
-        '''Метод реализующий авторизцию пользователей.'''
+        """Метод реализующий авторизцию пользователей."""
         # Если имя пользователя уже занято то возвращаем 400
         logs.debug(f'Start auth process for {message[USER]}')
         if message[USER][ACCOUNT_NAME] in self.names.keys():
@@ -313,7 +313,7 @@ class MessageProcessor(threading.Thread):
                 sock.close()
 
     def service_update_lists(self):
-        '''Метод реализующий отправки сервисного сообщения 205 клиентам.'''
+        """Метод реализующий отправки сервисного сообщения 205 клиентам."""
         for client in self.names:
             try:
                 send_message(self.names[client], RESPONSE_205)
