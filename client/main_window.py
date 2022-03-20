@@ -113,14 +113,16 @@ class ClientMainWindow(QMainWindow):
             item = list[i]
             if item[1] == 'in':
                 mess = QStandardItem(
-                    f'Входящее от {item[3].replace(microsecond=0)}:\n {item[2]}')
+                    f'Входящее от {item[3].replace(microsecond=0)}:\n '
+                    f'{item[2]}')
                 mess.setEditable(False)
                 mess.setBackground(QBrush(QColor(255, 213, 213)))
                 mess.setTextAlignment(Qt.AlignLeft)
                 self.history_model.appendRow(mess)
             else:
                 mess = QStandardItem(
-                    f'Исходящее от {item[3].replace(microsecond=0)}:\n {item[2]}')
+                    f'Исходящее от {item[3].replace(microsecond=0)}:\n '
+                    f'{item[2]}')
                 mess.setEditable(False)
                 mess.setTextAlignment(Qt.AlignRight)
                 mess.setBackground(QBrush(QColor(204, 255, 204)))
@@ -153,7 +155,8 @@ class ClientMainWindow(QMainWindow):
         # Если ключа нет то ошибка, что не удалось начать чат с пользователем
         if not self.current_chat_key:
             self.messages.warning(
-                self, 'Ошибка', 'Для выбранного пользователя нет ключа шифрования.')
+                self, 'Ошибка',
+                'Для выбранного пользователя нет ключа шифрования.')
             return
 
         # Ставим надпись и активируем кнопки
@@ -285,7 +288,8 @@ class ClientMainWindow(QMainWindow):
         else:
             self.database.save_message(self.current_chat, 'out', message_text)
             logs.debug(
-                f'Отправлено сообщение для {self.current_chat}: {message_text}')
+                f'Отправлено сообщение для {self.current_chat}: '
+                f'{message_text}')
             self.history_list_update()
 
     @pyqtSlot(dict)
@@ -323,7 +327,8 @@ class ClientMainWindow(QMainWindow):
                 if self.messages.question(
                     self,
                     'Новое сообщение',
-                    f'Получено новое сообщение от {sender}, открыть чат с ним?',
+                    f'Получено новое сообщение от {sender}, '
+                    f'открыть чат с ним?',
                     QMessageBox.Yes,
                         QMessageBox.No) == QMessageBox.Yes:
                     self.current_chat = sender
@@ -333,16 +338,22 @@ class ClientMainWindow(QMainWindow):
                 # Раз нету,спрашиваем хотим ли добавить юзера в контакты.
                 if self.messages.question(self,
                                           'Новое сообщение',
-                                          f'Получено новое сообщение от {sender}.\n '
-                                          f'Данного пользователя нет в вашем контакт-листе.\n '
-                                          f'Добавить в контакты и открыть чат с ним?',
-                                          QMessageBox.Yes, QMessageBox.No) == QMessageBox.Yes:
+                                          f'Получено новое сообщение от '
+                                          f'{sender}.\n '
+                                          f'Данного пользователя нет в '
+                                          f'вашем контакт-листе.\n '
+                                          f'Добавить в контакты и открыть '
+                                          f'чат с ним?',
+                                          QMessageBox.Yes, QMessageBox.No)\
+                        == QMessageBox.Yes:
                     self.add_contact(sender)
                     self.current_chat = sender
-                    # Нужно заново сохранить сообщение, иначе оно будет потеряно,
+                    # Нужно заново сохранить сообщение,
+                    # иначе оно будет потеряно,
                     # т.к. на момент предыдущего вызова контакта не было.
                     self.database.save_message(
-                        self.current_chat, 'in', decrypted_message.decode('utf8'))
+                        self.current_chat, 'in',
+                        decrypted_message.decode('utf8'))
                     self.set_active_user()
 
     @pyqtSlot()

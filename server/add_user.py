@@ -1,4 +1,5 @@
-from PyQt5.QtWidgets import QDialog, QPushButton, QLineEdit, QApplication, QLabel, QMessageBox
+from PyQt5.QtWidgets import QDialog, QPushButton, QLineEdit, QApplication, \
+    QLabel, QMessageBox
 from PyQt5.QtCore import Qt
 import hashlib
 import binascii
@@ -57,7 +58,8 @@ class RegisterUser(QDialog):
 
     def save_data(self):
         """
-        Метод проверки правильности ввода и сохранения в базу нового пользователя.
+        Метод проверки правильности ввода и сохранения в базу
+        нового пользователя.
         """
         if not self.client_name.text():
             self.messages.critical(

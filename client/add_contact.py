@@ -50,7 +50,6 @@ class AddContactDialog(QDialog):
         # Назначаем действие на кнопку обновить
         self.btn_refresh.clicked.connect(self.update_possible_contacts)
 
-    # Заполняем список возможных контактов разницей между всеми пользователями и
     def possible_contacts_update(self):
         """
         Метод заполнения списка возможных контактов.
@@ -61,13 +60,11 @@ class AddContactDialog(QDialog):
         # множества всех контактов и контактов клиента
         contacts_list = set(self.database.get_contacts())
         users_list = set(self.database.get_users())
-        # Удалим сами себя из списка пользователей, чтобы нельзя было добавить самого себя
+        # Удалим сами себя из списка пользователей
         users_list.remove(self.transport.username)
         # Добавляем список возможных контактов
         self.selector.addItems(users_list - contacts_list)
 
-    # Обновлялка возможных контактов. Обновляет таблицу известных пользователей,
-    # затем содержимое предполагаемых контактов
     def update_possible_contacts(self):
         """
         Метод обновления списка возможных контактов. Запрашивает с сервера

@@ -40,7 +40,9 @@ def arg_parser():
     # проверим подходящий номер порта
     if not 1023 < server_port < 65536:
         logs.critical(
-            f'Попытка запуска клиента с неподходящим номером порта: {server_port}. Допустимы адреса с 1024 до 65535. Клиент завершается.')
+            f'Попытка запуска клиента с неподходящим '
+            f'номером порта: {server_port}. '
+            f'Допустимы адреса с 1024 до 65535. Клиент завершается.')
         exit(1)
 
     return server_address, server_port, client_name, client_passwd
@@ -64,13 +66,15 @@ if __name__ == '__main__':
         if start_dialog.ok_pressed:
             client_name = start_dialog.client_name.text()
             client_passwd = start_dialog.client_passwd.text()
-            logs.debug(f'Using USERNAME = {client_name}, PASSWD = {client_passwd}.')
+            logs.debug(f'Using USERNAME = {client_name}, '
+                       f'PASSWD = {client_passwd}.')
         else:
             exit(0)
 
     # Записываем логи
     logs.info(
-        f'Запущен клиент с парамертами: адрес сервера: {server_address} , порт: {server_port}, имя пользователя: {client_name}')
+        f'Запущен клиент с парамертами: адрес сервера: {server_address}, '
+        f'порт: {server_port}, имя пользователя: {client_name}')
 
     # Загружаем ключи с файла, если же файла нет, то генерируем новую пару.
     dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -83,8 +87,8 @@ if __name__ == '__main__':
         with open(key_file, 'rb') as key:
             keys = RSA.import_key(key.read())
 
-    #!!!keys.publickey().export_key()
-    logs.debug("Keys sucsessfully loaded.")
+    #  !!!keys.publickey().export_key()
+    logs.debug("Keys successfully loaded.")
     # Создаём объект базы данных
     database = ClientDatabase(client_name)
     # Создаём объект - транспорт и запускаем транспортный поток

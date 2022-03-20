@@ -126,7 +126,8 @@ class ClientTransport(threading.Thread, QObject):
                         # Если всё нормально, то продолжаем процедуру
                         # авторизации.
                         ans_data = ans[DATA]
-                        hash = hmac.new(passwd_hash_string, ans_data.encode('utf-8'), 'MD5')
+                        hash = hmac.new(passwd_hash_string,
+                                        ans_data.encode('utf-8'), 'MD5')
                         digest = hash.digest()
                         my_ans = RESPONSE_511
                         my_ans[DATA] = binascii.b2a_base64(
@@ -152,15 +153,18 @@ class ClientTransport(threading.Thread, QObject):
                 self.contacts_list_update()
                 self.message_205.emit()
             else:
-                logs.error(
-                    f'Принят неизвестный код подтверждения {message[RESPONSE]}')
+                logs.error(f'Принят неизвестный код подтверждения '
+                           f'{message[RESPONSE]}')
 
         # Если это сообщение от пользователя добавляем в базу, даём сигнал о
         # новом сообщении
-        elif ACTION in message and message[ACTION] == MESSAGE and SENDER in message and DESTINATION in message \
-                and MESSAGE_TEXT in message and message[DESTINATION] == self.username:
+        elif ACTION in message and message[ACTION] == MESSAGE and \
+                SENDER in message and DESTINATION in message and \
+                MESSAGE_TEXT in message and \
+                message[DESTINATION] == self.username:
             logs.debug(
-                f'Получено сообщение от пользователя {message[SENDER]}:{message[MESSAGE_TEXT]}')
+                f'Получено сообщение от пользователя '
+                f'{message[SENDER]}: {message[MESSAGE_TEXT]}')
             self.new_message.emit(message)
 
     def contacts_list_update(self):
@@ -292,7 +296,9 @@ class ClientTransport(threading.Thread, QObject):
                         self.running = False
                         self.connection_lost.emit()
                 # Проблемы с соединением
-                except (ConnectionError, ConnectionAbortedError, ConnectionResetError, json.JSONDecodeError, TypeError):
+                except (ConnectionError, ConnectionAbortedError,
+                        ConnectionResetError, json.JSONDecodeError,
+                        TypeError):
                     logs.debug(f'Потеряно соединение с сервером.')
                     self.running = False
                     self.connection_lost.emit()
