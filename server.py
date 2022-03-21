@@ -15,7 +15,6 @@ from PyQt5.QtCore import Qt
 logs = logging.getLogger('server')
 
 
-
 @log
 def arg_parser(default_port, default_address):
     '''Парсер аргументов коммандной строки.'''
@@ -61,7 +60,8 @@ def main():
     # Загрузка параметров командной строки, если нет параметров, то задаём
     # значения по умоланию.
     listen_address, listen_port, gui_flag = arg_parser(
-        config['SETTINGS']['Default_port'], config['SETTINGS']['Listen_Address'])
+        config['SETTINGS']['Default_port'],
+        config['SETTINGS']['Listen_Address'])
 
     # Инициализация базы данных
     database = ServerStorage(
