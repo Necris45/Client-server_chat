@@ -8,10 +8,10 @@ from PyQt5.QtWidgets import QApplication, QMessageBox
 from common.variables import *
 from common.errors import ServerError
 from common.decorator import log
-from client.database import ClientDatabase
-from client.transport import ClientTransport
-from client.main_window import ClientMainWindow
-from client.start_dialog import UserNameDialog
+from client_data.database import ClientDatabase
+from client_data.transport import ClientTransport
+from client_data.main_window import ClientMainWindow
+from client_data.start_dialog import UserNameDialog
 
 
 logs = logging.getLogger('client')
