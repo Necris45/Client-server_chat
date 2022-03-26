@@ -7,7 +7,7 @@ sys.path.append('../')
 CLIENT_FORMATTER = logging.Formatter('%(asctime)s %(levelname)s %(filename)s '
                                      '%(message)s')
 
-PATH = os.path.dirname(os.path.abspath(__file__))
+PATH = os.getcwd()
 PATH = os.path.join(PATH, 'client.log')
 
 STREAM_HANDLER = logging.StreamHandler(sys.stderr)

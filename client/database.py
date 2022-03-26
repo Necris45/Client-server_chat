@@ -1,9 +1,11 @@
 import datetime
+import os
 from common.variables import *
 from sqlalchemy import create_engine, Table, Column, Integer, String, Text, \
     MetaData, DateTime
 from sqlalchemy.orm import mapper, sessionmaker
-import os
+from sqlalchemy.sql import default_comparator
+
 
 
 class ClientDatabase:
@@ -46,7 +48,7 @@ class ClientDatabase:
         # Поскольку клиент мультипоточный необходимо отключить
         # проверки на подключения с разных потоков,
         # иначе sqlite3.ProgrammingError
-        path = os.path.dirname(os.path.realpath(__file__))
+        path = os.getcwd()
         filename = f'client_{name}.db3'
         self.database_engine = create_engine(
             f'sqlite:///{os.path.join(path, filename)}',

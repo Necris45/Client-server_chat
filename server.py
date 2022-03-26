@@ -6,6 +6,7 @@ import configparser
 import logs.server_log_config
 from common.utils import *
 from common.decorator import log
+from common.variables import DEFAULT_PORT
 from server.core import MessageProcessor
 from server.database import ServerStorage
 from server.main_window import MainWindow
@@ -36,7 +37,7 @@ def arg_parser(default_port, default_address):
 def config_load():
     '''Парсер конфигурационного ini файла.'''
     config = configparser.ConfigParser()
-    dir_path = os.path.dirname(os.path.realpath(__file__))
+    dir_path = os.getcwd()
     config.read(f"{dir_path}/{'server.ini'}")
     # Если конфиг файл загружен правильно, запускаемся, иначе конфиг по
     # умолчанию.
