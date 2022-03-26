@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
-setup(name="mess_client_march_26",
-      version="0.5.1",
+setup(name="mess_client_march",
+      version="0.6.1",
       description="mess_client",
       author="Ivan Necris45 Sizikov",
       author_email="Necris01@mail.ru",

@@ -20,8 +20,8 @@ client/logs/__init__.py
 client/logs/client_log_config.py
 client/logs/server_log_config.py
 client/unit_test/__init__.py
-mess_client_march_26.egg-info/PKG-INFO
-mess_client_march_26.egg-info/SOURCES.txt
-mess_client_march_26.egg-info/dependency_links.txt
-mess_client_march_26.egg-info/requires.txt
-mess_client_march_26.egg-info/top_level.txt
+mess_client_march.egg-info/PKG-INFO
+mess_client_march.egg-info/SOURCES.txt
+mess_client_march.egg-info/dependency_links.txt
+mess_client_march.egg-info/requires.txt
+mess_client_march.egg-info/top_level.txt
