@@ -13,8 +13,9 @@ from server.main_window import MainWindow
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt
 
+path_main = os.getcwd()
+sys.path.insert(0,f'{path_main}/common')
 logs = logging.getLogger('server')
-
 
 @log
 def arg_parser(default_port, default_address):

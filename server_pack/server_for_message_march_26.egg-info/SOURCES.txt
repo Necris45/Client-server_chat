@@ -1,9 +1,4 @@
 setup.py
-mess_server_march.egg-info/PKG-INFO
-mess_server_march.egg-info/SOURCES.txt
-mess_server_march.egg-info/dependency_links.txt
-mess_server_march.egg-info/requires.txt
-mess_server_march.egg-info/top_level.txt
 server/__init__.py
 server/server.py
 server/common/__init__.py
@@ -25,3 +20,8 @@ server/server/main_window.py
 server/server/remove_user.py
 server/server/stat_window.py
 server/unit_test/__init__.py
+server_for_message_march_26.egg-info/PKG-INFO
+server_for_message_march_26.egg-info/SOURCES.txt
+server_for_message_march_26.egg-info/dependency_links.txt
+server_for_message_march_26.egg-info/requires.txt
+server_for_message_march_26.egg-info/top_level.txt
