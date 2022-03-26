@@ -8,7 +8,10 @@ import binascii
 import os
 from common.metaclasses import ServerMaker
 from common.descryptors import Port
-from common.variables import *
+from common.variables import MAX_CONNECTIONS, DESTINATION, SENDER, ACTION, PRESENCE, TIME, USER, MESSAGE, \
+    MESSAGE_TEXT, RESPONSE_400, ERROR, ACCOUNT_NAME, EXIT, RESPONSE_202, LIST_INFO, RESPONSE_200, REMOVE_CONTACT, \
+    ADD_CONTACT, GET_CONTACTS, USERS_REQUEST, PUBLIC_KEY_REQUEST, RESPONSE_511, DATA, RESPONSE, PUBLIC_KEY, \
+    RESPONSE_205
 from common.utils import send_message, get_message
 from common.decorator import login_required
 

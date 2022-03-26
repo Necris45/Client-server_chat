@@ -1,0 +1,80 @@
+2022-03-26 18:16:08,849 DEBUG decorator.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля "client.py",.
+Вызов из функции <module>.
+2022-03-26 18:16:08,849 DEBUG client.py Args loaded
+2022-03-26 18:16:18,182 DEBUG client.py Using USERNAME = client_1, PASSWD = 123456.
+2022-03-26 18:16:18,182 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: client_1
+2022-03-26 18:16:21,574 DEBUG client.py Keys successfully loaded.
+2022-03-26 18:16:22,127 INFO transport.py Попытка подключения №1
+2022-03-26 18:16:22,127 DEBUG transport.py Connection established.
+2022-03-26 18:16:22,128 DEBUG transport.py Starting auth dialog.
+2022-03-26 18:16:22,138 DEBUG transport.py Passwd hash ready: b'3c12350c9efc01b066783314fe2ff621d0d9b73e896856be1c0c1728849b42c7d7c532f1c8c849bec7bf8e33f95dd80aef478ccd605a7ba6c2e0d4dd490cd6d8'
+2022-03-26 18:16:22,138 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1648300582.1387093, 'user': {'account_name': 'client_1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA70SPbCoUT8mq2glB/S1t\nZ4pPnMf/WOyJWdq/Il3i9vWOj61tSqNypoA3schoXEEckzDu/q1tU/q16hM+hqhV\nz2UoaVoNhrLNXc0kOz3miWsArNoc60Y/BMw7rtnmeA2s8ZgfZ1nAzTXgdnGQjKUD\ndNDV7UL5+7FjZPQvl395VEF7O9/s/v57Fn3hTWDykjiUi1tes+a1GuyS5woalNnf\nc+J9ZdiFQbNkuzYqF3k8JQ2Bsf4FTkB+0FWowdc8o5Fpd8jLV3YzjrxcNrRiavGM\noZcjWd1Vz18S1Zr0qGw+HtoanXlgKqZEnvxOCZAWohFKF0sA3Y3BWdkcDTyGcUoB\nEwIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-26 18:16:22,140 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648300582.1387093, 'user': {'account_name': 'client_1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA70SPbCoUT8mq2glB/S1t\nZ4pPnMf/WOyJWdq/Il3i9vWOj61tSqNypoA3schoXEEckzDu/q1tU/q16hM+hqhV\nz2UoaVoNhrLNXc0kOz3miWsArNoc60Y/BMw7rtnmeA2s8ZgfZ1nAzTXgdnGQjKUD\ndNDV7UL5+7FjZPQvl395VEF7O9/s/v57Fn3hTWDykjiUi1tes+a1GuyS5woalNnf\nc+J9ZdiFQbNkuzYqF3k8JQ2Bsf4FTkB+0FWowdc8o5Fpd8jLV3YzjrxcNrRiavGM\noZcjWd1Vz18S1Zr0qGw+HtoanXlgKqZEnvxOCZAWohFKF0sA3Y3BWdkcDTyGcUoB\nEwIDAQAB\n-----END PUBLIC KEY-----'}}), {}. Вызов из модуля "client.py",.
+Вызов из функции connection_init.
+2022-03-26 18:16:22,637 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "client.py",.
+Вызов из функции connection_init.
+2022-03-26 18:16:22,637 DEBUG transport.py Server response = {'response': 511, 'bin': '298a0af4e380d55a23b727e115ce4d37abf6c2f35ee74f90958dc1d71ce344c127224a1befa85a8fec63bc93c636c04ffd6b0a2b8ae150f11acdd38d06154081'}.
+2022-03-26 18:16:22,639 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'bp6qg5DYvL3kXP+a1HkhVg==\n'}), {}. Вызов из модуля "client.py",.
+Вызов из функции connection_init.
+2022-03-26 18:16:22,641 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "client.py",.
+Вызов из функции connection_init.
+2022-03-26 18:16:22,641 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-26 18:16:22,641 DEBUG transport.py Запрос списка известных пользователей client_1
+2022-03-26 18:16:22,642 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1648300582.6417243, 'account_name': 'client_1'}), {}. Вызов из модуля "client.py",.
+Вызов из функции user_list_update.
+2022-03-26 18:16:23,319 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "client.py",.
+Вызов из функции user_list_update.
+2022-03-26 18:16:23,454 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2022-03-26 18:16:23,454 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1648300583.4543552, 'user': 'client_1'}
+2022-03-26 18:16:23,456 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1648300583.4543552, 'user': 'client_1'}), {}. Вызов из модуля "client.py",.
+Вызов из функции contacts_list_update.
+2022-03-26 18:16:23,836 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "client.py",.
+Вызов из функции contacts_list_update.
+2022-03-26 18:16:23,836 DEBUG transport.py Получен ответ {'response': 202, 'data_list': []}
+2022-03-26 18:16:23,836 DEBUG client.py Transport ready.
+2022-03-26 18:16:23,836 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2022-03-26 18:17:08,452 DEBUG transport.py Создание контакта client_2
+2022-03-26 18:17:08,454 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1648300628.4522583, 'user': 'client_1', 'account_name': 'client_2'}), {}. Вызов из модуля "client.py",.
+Вызов из функции add_contact.
+2022-03-26 18:17:08,957 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "client.py",.
+Вызов из функции add_contact.
+2022-03-26 18:17:08,957 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-26 18:17:09,071 INFO main_window.py Успешно добавлен контакт <PyQt5.QtGui.QStandardItem object at 0x00000202131C2430>
+2022-03-26 18:17:22,585 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "threading.py",.
+Вызов из функции run.
+2022-03-26 18:17:22,585 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'client_2', 'to': 'client_1', 'time': 1648300641.9835556, 'mess_text': 'e2Z4Cy00IhQB+/rRkh90mU9DkNjvyc97Ez6yXkn+eYG0heuuVaumn+5QbEXfZaKEY0pEKfoDIe1JLY8OxoGVhXUFGfZbmWLGZjs88b4nXryuciUpzU/9tKw/ruLW5x6cJPB9UccvU6C71dHP4KAMWEeJ2jT5PTserk0Fn2yDXlgnNVwFAlZHBkVVdkK8s49/lCfrd/tfqNquXxQTznmDp/wtDnXfDFWsgnG9MvK2C4qwDoUMc1u2ccwuxt6MJdWRYJwL468qPjVBpJwnWQfPDbOb49ef6opb/ogAdtY04x3B6Zox4PCvm16aN5OXH59dLJL9HsvESRvtLBrVvAMADA=='}
+2022-03-26 18:17:22,585 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'client_2', 'to': 'client_1', 'time': 1648300641.9835556, 'mess_text': 'e2Z4Cy00IhQB+/rRkh90mU9DkNjvyc97Ez6yXkn+eYG0heuuVaumn+5QbEXfZaKEY0pEKfoDIe1JLY8OxoGVhXUFGfZbmWLGZjs88b4nXryuciUpzU/9tKw/ruLW5x6cJPB9UccvU6C71dHP4KAMWEeJ2jT5PTserk0Fn2yDXlgnNVwFAlZHBkVVdkK8s49/lCfrd/tfqNquXxQTznmDp/wtDnXfDFWsgnG9MvK2C4qwDoUMc1u2ccwuxt6MJdWRYJwL468qPjVBpJwnWQfPDbOb49ef6opb/ogAdtY04x3B6Zox4PCvm16aN5OXH59dLJL9HsvESRvtLBrVvAMADA=='}
+2022-03-26 18:17:22,585 DEBUG transport.py Получено сообщение от пользователя client_2: e2Z4Cy00IhQB+/rRkh90mU9DkNjvyc97Ez6yXkn+eYG0heuuVaumn+5QbEXfZaKEY0pEKfoDIe1JLY8OxoGVhXUFGfZbmWLGZjs88b4nXryuciUpzU/9tKw/ruLW5x6cJPB9UccvU6C71dHP4KAMWEeJ2jT5PTserk0Fn2yDXlgnNVwFAlZHBkVVdkK8s49/lCfrd/tfqNquXxQTznmDp/wtDnXfDFWsgnG9MvK2C4qwDoUMc1u2ccwuxt6MJdWRYJwL468qPjVBpJwnWQfPDbOb49ef6opb/ogAdtY04x3B6Zox4PCvm16aN5OXH59dLJL9HsvESRvtLBrVvAMADA==
+2022-03-26 18:17:27,542 DEBUG transport.py Запрос публичного ключа для client_2
+2022-03-26 18:17:27,544 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>, {'action': 'pubkey_need', 'time': 1648300647.5425165, 'account_name': 'client_2'}), {}. Вызов из модуля "client.py",.
+Вызов из функции key_request.
+2022-03-26 18:17:27,614 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "client.py",.
+Вызов из функции key_request.
+2022-03-26 18:17:27,614 DEBUG main_window.py Загружен открытый ключ для client_2
+2022-03-26 18:17:29,553 DEBUG transport.py Запрос публичного ключа для client_2
+2022-03-26 18:17:29,555 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>, {'action': 'pubkey_need', 'time': 1648300649.5547154, 'account_name': 'client_2'}), {}. Вызов из модуля "client.py",.
+Вызов из функции key_request.
+2022-03-26 18:17:29,657 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "client.py",.
+Вызов из функции key_request.
+2022-03-26 18:17:29,657 DEBUG main_window.py Загружен открытый ключ для client_2
+2022-03-26 18:17:41,836 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "threading.py",.
+Вызов из функции run.
+2022-03-26 18:17:41,836 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'client_2', 'to': 'client_1', 'time': 1648300661.1172965, 'mess_text': 'qWahxOTwkmHdFu7MPyXRPcO+ODK1Qp0jy++FxhD7wvfS+Wqhiyuvf6ux5PhUdU600nQWmAcMNaKn2DChOqmts+jPCsrrG0v7r4UoMzA+YHKNrMxhrAMUCOrJHjxFAElb4U/djletFocJbpmQyeUYYN8nm66jLgb67lquSB43iFw3urckCrkhYtZhReks+FXz9EamdIBiJhk7BMANpFvEEdYj9rjBDwgNmV0klj1Wr+0kJ5RG1jjoSsNwRzAK955ifgpyv4NNW4ipUkyzIAsvZTLbZO8CMqWSU3oQ2vyPp1lDITPQ3Dj018gsX1e1v/9oath62IG0L+kMR8vhoZ8dUA=='}
+2022-03-26 18:17:41,836 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'client_2', 'to': 'client_1', 'time': 1648300661.1172965, 'mess_text': 'qWahxOTwkmHdFu7MPyXRPcO+ODK1Qp0jy++FxhD7wvfS+Wqhiyuvf6ux5PhUdU600nQWmAcMNaKn2DChOqmts+jPCsrrG0v7r4UoMzA+YHKNrMxhrAMUCOrJHjxFAElb4U/djletFocJbpmQyeUYYN8nm66jLgb67lquSB43iFw3urckCrkhYtZhReks+FXz9EamdIBiJhk7BMANpFvEEdYj9rjBDwgNmV0klj1Wr+0kJ5RG1jjoSsNwRzAK955ifgpyv4NNW4ipUkyzIAsvZTLbZO8CMqWSU3oQ2vyPp1lDITPQ3Dj018gsX1e1v/9oath62IG0L+kMR8vhoZ8dUA=='}
+2022-03-26 18:17:41,836 DEBUG transport.py Получено сообщение от пользователя client_2: qWahxOTwkmHdFu7MPyXRPcO+ODK1Qp0jy++FxhD7wvfS+Wqhiyuvf6ux5PhUdU600nQWmAcMNaKn2DChOqmts+jPCsrrG0v7r4UoMzA+YHKNrMxhrAMUCOrJHjxFAElb4U/djletFocJbpmQyeUYYN8nm66jLgb67lquSB43iFw3urckCrkhYtZhReks+FXz9EamdIBiJhk7BMANpFvEEdYj9rjBDwgNmV0klj1Wr+0kJ5RG1jjoSsNwRzAK955ifgpyv4NNW4ipUkyzIAsvZTLbZO8CMqWSU3oQ2vyPp1lDITPQ3Dj018gsX1e1v/9oath62IG0L+kMR8vhoZ8dUA==
+2022-03-26 18:17:45,891 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "threading.py",.
+Вызов из функции run.
+2022-03-26 18:17:45,891 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'client_2', 'to': 'client_1', 'time': 1648300665.2295644, 'mess_text': 'l9g9NJmxqgFpiMKox2DtLjVuXGKNFYBubX3dxzQl63r3Hj6NgNhqCq+L6sMJm3BwpX1jmFqpCwmVa4COcEJBSbRhpb3Evi3TchCt5Pc55m/B2zuvWRFSwYcLZYrwSaINvKbt47J1YzvSZYumNZX6yQjQgaEUyxQEzfwdwT0duSEwNqYTmixSm33ANKlgu9fBfOc5AfVmzYZwmE2iW528dTlsbFdx4e49p80sB0rhbpoD25v+wCcB5oAT/I6ZeuesOwNYmAb8yqeMdkbpjHZtZ+hapIHcKU+cuEn+h3XqkAr13EdhPkJUDrJFI2bYP2K/R3Rj7Cn0KfwMrTl9Nlp77Q=='}
+2022-03-26 18:17:45,891 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'client_2', 'to': 'client_1', 'time': 1648300665.2295644, 'mess_text': 'l9g9NJmxqgFpiMKox2DtLjVuXGKNFYBubX3dxzQl63r3Hj6NgNhqCq+L6sMJm3BwpX1jmFqpCwmVa4COcEJBSbRhpb3Evi3TchCt5Pc55m/B2zuvWRFSwYcLZYrwSaINvKbt47J1YzvSZYumNZX6yQjQgaEUyxQEzfwdwT0duSEwNqYTmixSm33ANKlgu9fBfOc5AfVmzYZwmE2iW528dTlsbFdx4e49p80sB0rhbpoD25v+wCcB5oAT/I6ZeuesOwNYmAb8yqeMdkbpjHZtZ+hapIHcKU+cuEn+h3XqkAr13EdhPkJUDrJFI2bYP2K/R3Rj7Cn0KfwMrTl9Nlp77Q=='}
+2022-03-26 18:17:45,891 DEBUG transport.py Получено сообщение от пользователя client_2: l9g9NJmxqgFpiMKox2DtLjVuXGKNFYBubX3dxzQl63r3Hj6NgNhqCq+L6sMJm3BwpX1jmFqpCwmVa4COcEJBSbRhpb3Evi3TchCt5Pc55m/B2zuvWRFSwYcLZYrwSaINvKbt47J1YzvSZYumNZX6yQjQgaEUyxQEzfwdwT0duSEwNqYTmixSm33ANKlgu9fBfOc5AfVmzYZwmE2iW528dTlsbFdx4e49p80sB0rhbpoD25v+wCcB5oAT/I6ZeuesOwNYmAb8yqeMdkbpjHZtZ+hapIHcKU+cuEn+h3XqkAr13EdhPkJUDrJFI2bYP2K/R3Rj7Cn0KfwMrTl9Nlp77Q==
+2022-03-26 18:17:57,069 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'client_1', 'to': 'client_2', 'time': 1648300677.069488, 'mess_text': 'ayDJylS2jXPmCj+C9bEV+6L6bkoLKzUZk9uWdjk/QAN/Qhl+DdMUsZf8KDjlvIkmyC7zQjnal426cRns5mi50oYfxgb0LlM0jDKaNxlZoxmK1pavk/wIg2z5TL6+afg1Q0fOl1Y7fjywBuiFPya4/BOW+Ro3sficfHu8x0o2p03gR7AzGQg0FqHcCJdSyVuB4pweB6DQ3LrTQ8qvA+lUBD/X8H5uVJZxZ0YoM6tyovMWFaETCnzSTSGIp+qKCoY42G9CtyLIxKimjvd5SzO2eXA5thrkpxkMLx7XZGkwwcQuvRzWtu4dZ6GFqWFUYlWpGp/v8JrX1Evn0VKnJQHaIQ=='}
+2022-03-26 18:17:57,071 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'client_1', 'to': 'client_2', 'time': 1648300677.069488, 'mess_text': 'ayDJylS2jXPmCj+C9bEV+6L6bkoLKzUZk9uWdjk/QAN/Qhl+DdMUsZf8KDjlvIkmyC7zQjnal426cRns5mi50oYfxgb0LlM0jDKaNxlZoxmK1pavk/wIg2z5TL6+afg1Q0fOl1Y7fjywBuiFPya4/BOW+Ro3sficfHu8x0o2p03gR7AzGQg0FqHcCJdSyVuB4pweB6DQ3LrTQ8qvA+lUBD/X8H5uVJZxZ0YoM6tyovMWFaETCnzSTSGIp+qKCoY42G9CtyLIxKimjvd5SzO2eXA5thrkpxkMLx7XZGkwwcQuvRzWtu4dZ6GFqWFUYlWpGp/v8JrX1Evn0VKnJQHaIQ=='}), {}. Вызов из модуля "client.py",.
+Вызов из функции send_message.
+2022-03-26 18:17:57,629 DEBUG decorator.py Была вызвана функция get_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля "client.py",.
+Вызов из функции send_message.
+2022-03-26 18:17:57,629 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-03-26 18:17:57,629 INFO transport.py Отправлено сообщение для пользователя client_2
+2022-03-26 18:17:57,752 DEBUG main_window.py Отправлено сообщение для client_2: 123
+2022-03-26 18:18:02,046 DEBUG decorator.py Была вызвана функция send_message c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58628), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1648300682.045096, 'account_name': 'client_1'}), {}. Вызов из модуля "client.py",.
+Вызов из функции transport_shutdown.
+2022-03-26 18:18:02,046 DEBUG transport.py Транспорт завершает работу.

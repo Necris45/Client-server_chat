@@ -8,8 +8,10 @@ import hmac
 import binascii
 from PyQt5.QtCore import pyqtSignal, QObject
 
-from common.utils import *
-from common.variables import *
+from common.utils import send_message, get_message
+from common.variables import ACTION, TIME, USER, ACCOUNT_NAME, SENDER, DESTINATION, DATA, PUBLIC_KEY, PRESENCE, \
+    RESPONSE, ERROR, MESSAGE, MESSAGE_TEXT, EXIT, GET_CONTACTS, LIST_INFO, REMOVE_CONTACT, ADD_CONTACT, \
+    USERS_REQUEST, PUBLIC_KEY_REQUEST, RESPONSE_511
 from common.errors import ServerError
 
 # Логер и объект блокировки для работы с сокетом.
