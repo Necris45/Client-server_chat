@@ -4,18 +4,20 @@ import argparse
 import logging
 import configparser
 import logs.server_log_config
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtCore import Qt
 from common.utils import *
 from common.decorator import log
 from common.variables import DEFAULT_PORT
-from server.core import MessageProcessor
-from server.database import ServerStorage
-from server.main_window import MainWindow
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtCore import Qt
+from server_data.core import MessageProcessor
+from server_data.database import ServerStorage
+from server_data.main_window import MainWindow
 
 path_main = os.getcwd()
-sys.path.insert(0,f'{path_main}/common')
+sys.path.insert(0,f'{path_main}/server_pack/server')
+
 logs = logging.getLogger('server')
+
 
 @log
 def arg_parser(default_port, default_address):
